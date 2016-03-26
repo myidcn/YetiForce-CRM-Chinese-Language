@@ -1,7 +1,9 @@
 # yetiforceChineselanguage
 中文语言包请到此处下载。
 Please download here。
+
 http://www.idercn.com/bencandy.php?fid=561&aid=31463
+语言包由 www.idercn.com翻译
 yetiforce CRM，作者在波兰，基于vtiger和其他开源程序创建。
 
 一个开源和创新的客户关系管理系统，yetiforce系统，界面友好，灵活可定制，具有各种配置工具，能为公司创建完整的解决方案。经过了大量测试，可为大中型企业提供可靠安全的解决方案。
