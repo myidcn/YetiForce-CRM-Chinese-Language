@@ -1,5 +1,12 @@
 # yetiforceChineselanguage
-中文语言包请到此处下载。
+
+yetiforce 3.0.0中文语言包请到此处下载。
+Please download here。
+
+http://www.idercn.com/bencandy.php?fid=562&id=31466
+语言包由 www.idercn.com翻译
+
+yetiforce 2.3.49中文语言包请到此处下载。
 Please download here。
 
 http://www.idercn.com/bencandy.php?fid=561&aid=31463
