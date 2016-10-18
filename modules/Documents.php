@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -47,7 +47,7 @@ $languageStrings = [
 	'LBL_FILE_INFORMATION' => '文件信息',
 	'LBL_FILE_NOT_AVAILABLE' => '此文档不提供下载',
 	'LBL_FOLDER_DESCRIPTION' => '文件夹描述',
-	'LBL_FOLDER_HAS_DOCUMENTS' => '在删除之前#请先移出文件夹中的文档',
+	'LBL_FOLDER_HAS_DOCUMENTS' => '在删除之前，请先移出文件夹中的文档',
 	'LBL_FOLDER_NAME' => '文件夹名称',
 	'LBL_FOLDERS' => '文件夹',
 	'LBL_FOLDERS_LIST' => '文件夹列表',

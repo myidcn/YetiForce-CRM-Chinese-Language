@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -31,7 +31,6 @@ $languageStrings = [
 	'LBL_RECORDS_LIST' => '营销活动列表',
 	//FIELDS
 	'Budget Cost' => '市场活动预算',
-	'Campaign Status' => '市场活动状态',
 	'Campaign Type' => '类型',
 	//BLOCKS
 	'LBL_CAMPAIGN_INFORMATION' => '营销活动详情',
@@ -71,8 +70,8 @@ $languageStrings = [
 	'Sponsor' => '主办方',
 	'Target Audience' => '目标受众',
 	'TargetSize' => '目标规模',
-	'Telemarketing' => '电话营销#',
-	'Webinar' => '网络研讨会#',
+	'Telemarketing' => '电话营销',
+	'Webinar' => '网络研讨会',
 	'Message sent' => '已发送的消息',
 	'LBL_LOAD_RECORDS' => '从筛选器载入',
 	'LBL_LOAD_RECORDS_INFO' => '用于载入满足筛选器所有指定条件的记录的按钮',

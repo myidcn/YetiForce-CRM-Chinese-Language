@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -17,8 +17,9 @@
 
 $languageStrings = [
 	'OSSMail' => '我的邮箱',
+	'ERR_NO_MODULE_IS_INACTIVE' => '"我的邮箱" 模块没有启用, 应首先到设置中启用.' 
 ];
 
 $jsLanguageStrings = [
-	'JS_ERROR_EMPTY' => '所有字段必须完成',
+	'JS_ERROR_EMPTY' => 'All fields must be completed',
 ];

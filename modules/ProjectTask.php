@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -35,6 +35,7 @@ $languageStrings = [
 	'Parent ID' => '相关的任务',
 	'Project Task Number' => '项目任务名称',
 	'description' => ' 描述',
+	'FL_TOTAL_TIME_H' => '总工作时间',
 	'Project Task No' => '项目任务编号',
 	'Project Task Name' => '项目任务名称',
 	'LBL_ESTIMATED_WORK_TIME' => '估计的工作时间',

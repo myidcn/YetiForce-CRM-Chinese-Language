@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -108,6 +108,9 @@ $languageStrings = [
 	'Record Id' => '记录ID',
 	'ticketpriorities' => '优先',
 	'LBL_NO_ACCOUNTS_IN_HELPDESK' => '服务单没有关联任何客户，请创建一个关联',
+	'LBL_ACCOUNTS_NO_ACTIVE_SERVICE_CONTRACTS' => '这个客户没有活动的服务合同',
+	'LBL_NO_SERVICE_CONTRACTS_IN_HELPDESK' => '这个服务单没有关联到服务合同',
+	'LBL_SET_SERVICE_CONTRACTS_REFERENCE_DESC' => '按下按钮把服务合同关联到服务单',
 	//notifications translation 
 	'LBL_NOTICE_WELCOME' => '欢迎来到平台',
 	'LBL_NOTICE_CREATED' => '已创建(由',

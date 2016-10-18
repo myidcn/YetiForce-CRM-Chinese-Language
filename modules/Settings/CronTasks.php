@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -24,7 +24,7 @@
 $languageStrings = [
 	'Recommended frequency for Scheduled Import is 15 mins' => '建议导入计划频率是15分钟',
 	'Recommended frequency for SendReminder is 15 mins' => '建议发送提醒频率是15分钟',
-	'Recommended frequency for RecurringInvoice is 12 hours' => '建议的频率为 RecurringInvoice 是 12 个小时',
+	'Recommended frequency for RecurringInvoice is 12 hours' => '建议重复性发票的频率为是 12 个小时',
 	'Recommended frequency for Workflow is 15 mins' => '建议工作流的频率是15分钟',
 	'Recommended frequency for MailScanner is 15 mins' => '建议扫描邮件的频率是15分钟',
 	'Recommended frequency for ScheduleReports is 15 mins' => '建议计划汇报的频率是15分钟',
@@ -61,11 +61,12 @@ $languageStrings = [
 	'Assets Renewal' => '资产更新',
 	'SoldServices Renewal' => '服务销售更新',
 	'LBL_SEND_NOTIFICATIONS' => '发送通知',
+	'LBL_MARK_RECORDS_AS_REVIEWED' => '标记记录为已读',
 ];
 $jsLanguageStrings = [
 	'Recommended frequency for Scheduled Import is 15 mins' => '建议导入计划频率是15分钟',
 	'Recommended frequency for SendReminder is 15 mins' => '建议发送提醒频率是15分钟',
-	'Recommended frequency for RecurringInvoice is 12 hours' => '建议的频率为 RecurringInvoice 是 12 个小时',
+	'Recommended frequency for RecurringInvoice is 12 hours' => '建议重复性发票的频率为是 12 个小时',
 	'Recommended frequency for Workflow is 15 mins' => '建议工作流的频率是15分钟',
 	'Recommended frequency for MailScanner is 15 mins' => '建议扫描邮件的频率是15分钟',
 	'FREQUENCY_NUMBER' => '频率必须由一个整数',

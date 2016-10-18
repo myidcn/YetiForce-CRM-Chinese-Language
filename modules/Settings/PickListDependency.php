@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -47,7 +47,7 @@ $languageStrings = [
 $jsLanguageStrings = [
 	'JS_DEPENDENCY_ATLEAST_ONE_VALUE' => '您需要选择至少一个值',
 	'JS_DEPENDENCY_DELETED_SUEESSFULLY' => '依赖项已成功删除',
-	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => '确实要删除此选择列表依赖吗？',
+	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_DELETE' => '确实要删除此选择列表依赖吗？?',
 	'JS_PICKLIST_DEPENDENCY_SAVED' => '保存的选择列表依赖项',
 	'JS_SELECT_SOME_VALUE' => '选择一些值',
 	'JS_SOURCE_AND_TARGET_FIELDS_SHOULD_NOT_BE_SAME' => '源字段和目标字段不应相同',

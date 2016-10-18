@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -99,7 +99,7 @@ $languageStrings = [
 	'LBL_SHOW' => '显示',
 	'LBL_TAG_CLOUD_DISPLAY' => '显示标签云',
 	'LBL_TO_CRM' => '登录到CRM',
-	'LBL_TRANSFER_GROUP' => '将所有权转交给：: ',
+	'LBL_TRANSFER_GROUP' => '将所有权转交给：',
 	'LBL_TRANSFER_OWNERSHIP' => '移交所有权',
 	'LBL_TRANSFER_RECORDS_TO_USER' => '转移记录给其它用户',
 	'LBL_TRANSFER_ROLES_TO_PROFILE' => '将角色转移到配置文件',
@@ -238,7 +238,7 @@ $languageStrings = [
 	'Recover password' => '恢复密码',
 	'Login' => '登录',
 	'Invalid username or password.' => '用户名或密码无效.',
-	'Too many failed login attempts.' => '太多的失败的登录尝试.',
+	'Too many failed login attempts.' => '尝试登录失败次数太多。',
 	'Outgoing mail server was not configured.' => '传出邮件服务器没有配置.',
 	'Mail has been sent to your inbox, please check your e-mail.' => '邮件已发送到您的收件箱，请检查您的电子邮件。',
 	'Invalid Username or Email address.' => '用户名或 Email 无效.',
@@ -293,7 +293,7 @@ $languageStrings = [
 	'Active' => '激活',
 	'Inactive' => '未启用',
 	'yes' => '是',
-	'no' => '否//Yes or No',
+	'no' => '否',
 	'Meeting' => '会议',
 	'Call' => '电话',
 	'Mobile Call' => '移动电话',
@@ -327,7 +327,8 @@ $languageStrings = [
 	'PLL_POSTPONED' => '延迟',
 	'PLL_CANCELLED' => '已取消',
 	'PLL_COMPLETED' => '已完成',
-	'LBL_SWITCH' => '切换',
+	'LBL_SELECT_LAYOUT' => '选择布局', 
+	'LBL_SWITCH' => '开关',
 	'LBL_SWITCH_USER' => '切换用户',
 	'LBL_SWITCH_TO_YOURSELF' => '切换到你自己',
 ];
@@ -340,7 +341,7 @@ $jsLanguageStrings = [
 	'JS_ENTER_OLD_PASSWORD' => '请输入您的旧密码.',
 	'JS_INVALID_PASSWORD' => '你必须指定一个有效的用户名和密码.',
 	'JS_PASSWORD_CHANGE_FAILED_1' => '用户密码更改失败 ',
-	'JS_PASSWORD_CHANGE_FAILED_2' => ' 失败。必需设置新密码',
+	'JS_PASSWORD_CHANGE_FAILED_2' => '失败。必需设置新密码',
 	'JS_PASSWORD_INCORRECT_OLD' => '指定了不正确的旧密码。重新输入密码信息.',
 	'JS_REENTER_PASSWORDS' => '新密码和确认新密码不匹配。请重新输入.',
 	'JS_USER_MAIL_EXIST' => '存在与此电子邮件地址的用户',

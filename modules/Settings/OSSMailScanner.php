@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -47,7 +47,7 @@ $jsLanguageStrings = [
 	'Manually stopped' => '手动停止',
 	'OK' => '好',
 	'In progress' => '正在进行',
-	'whether_remove_an_identity' => '删除标识吗？',
+	'whether_remove_an_identity' => '删除标识吗？?',
 	'removed_identity' => '标识已删除',
 	'LBL_LOADING_LIST_OF_FOLDERS' => '正在载入文件夹列表</br>请您等待几分钟...',
 ];

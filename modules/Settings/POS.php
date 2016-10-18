@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -31,7 +31,7 @@ $languageStrings = [
 	'LBL_POS_DESCRIPTION' => '这个模块将在V3.1中完善',
 ];
 $jsLanguageStrings = [
-	'JS_DELETE_CONFIRMATION' => '您确定您要删除秘钥吗？',
+	'JS_DELETE_CONFIRMATION' => '您确定您要删除秘钥吗？?',
 	'JS_THIS_USER_IS_EXIST' => '选定的用户已经有一个访问秘钥.',
 ];
 

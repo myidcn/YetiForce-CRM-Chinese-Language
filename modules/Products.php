@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -56,7 +56,7 @@ $languageStrings = [
 	'LBL_ADD_TO_PRICEBOOKS' => '添加价格表', //Duplicated key-value pairs
 	'Lb' => 'Lb',
 	'LBL_IMAGE_INFORMATION' => '产品图片信息',
-	'LBL_MORE_CURRENCIES' => '更多币种#',
+	'LBL_MORE_CURRENCIES' => '更多币种',
 	'LBL_PRICE' => '价格',
 	'LBL_PRICES' => '产品价格',
 	'LBL_PRODUCT_INFORMATION' => '产品细节',
@@ -105,4 +105,7 @@ $languageStrings = [
 	'LBL_INVENTORY_LIMITED_FROM_POTENTIALS_INFO' => '记录列表是限于产品和服务相关的销售机会',
 	'FL_EAN_13' => 'EAN-13',
 	'FL_QTY_IN_STOCK' => '库存产品的数量',
+	'pcs' => '单位',
+	'pack' => '包装',
+	'FL_POS' => 'POS',
 ];

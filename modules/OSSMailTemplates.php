@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -39,7 +39,7 @@ $languageStrings = [
 	'Subject' => '标题',
 	'Content' => '内容',
 	'Yes' => '是',
-	'No' => '否//Yes or No',
+	'No' => '否',
 	'MAIL_TPL_LIST' => '选择模板电子邮件',
 	'LBL_COPY_TO_CLIPBOARD_TITLE' => '复制到剪贴板',
 	'LBL_TYPE' => '类型',

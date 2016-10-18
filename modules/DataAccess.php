@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -34,7 +34,7 @@ $languageStrings = [
 	'Field value is not unique' => '字段值不是唯一',
 	'Please enter a unique value in the' => '请输入一个唯一的值中:',
 	'LBL_LOCKS_SAVE' => '保存锁',
-	'LBL_LOCKS_SAVE_LABEL1' => '否//Yes or No',
+	'LBL_LOCKS_SAVE_LABEL1' => '否',
 	'LBL_LOCKS_SAVE_LABEL2' => '是的--满足一个条件',
 	'LBL_LOCKS_SAVE_LABEL3' => '是的--满足两个条件',
 	'LBL_LOCKS_SAVE_LABEL4' => '是的-模态窗口',
@@ -101,8 +101,8 @@ $languageStrings = [
 	'Action_Desc_unique_account' => '检查客户在模块中是否是唯一的.',
 	'LBL_DUPLICATED_FOUND' => '找到重复项',
 	'LBL_DUPLICTAE_CREATION_CONFIRMATION' => '发现有重复项，您确定要保存吗？',
-	'LBL_DUPLICTAE_QUICK_EDIT_CONFIRMATION' => '在快速创建模式下，一个记录值尝试变更<br>在这个试图中，请选择下面的复选框，以便应用变更<br>请注意!<br>在这个记录中重新输入变更.',
-	'LBL_DONT_ASK_AGAIN' => '不在询问此条记录.',
+	'LBL_DUPLICTAE_QUICK_EDIT_CONFIRMATION' => '在快速创建模式下，一个记录值尝试变更<br>在这个试图中，请选择下面的复选框，以便应用变更<br>请注意!<br>在这个记录中重新输入变更。',
+	'LBL_DONT_ASK_AGAIN' => '不在询问此条记录。',
 	'LBL_SEARCH_TRASH' => '搜索回收站',
 ];
 $jsLanguageStrings = [

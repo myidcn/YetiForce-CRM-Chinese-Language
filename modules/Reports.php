@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -103,6 +103,9 @@ $languageStrings = [
 	'LBL_YEARLY' => '每年',
 	'LBL_MAIN' => '主要',
 	'LBL_SELECT_REPORT' => '选择报表',
+	'LBL_FILE_TYPE' => '文件类型',
+	'LBL_CSV' => 'CSV',
+	'LBL_EXCEL' => 'EXCEL',
 	//charts labels
 	'LBL_SELECT_CHART_TYPE' => '选择图表类型',
 	'LBL_CLICK_THROUGH_NOT_AVAILABLE' => '点击不可以选择多个模块',
@@ -133,8 +136,8 @@ $languageStrings = [
 ];
 
 $jsLanguageStrings = [
-	'JS_CALCULATION_LINE_ITEM_FIELDS_SELECTION_LIMITATION' => '限制：这些字段（定价#折扣和数量）只能在其它计算字段没有选定时使用.',
+	'JS_CALCULATION_LINE_ITEM_FIELDS_SELECTION_LIMITATION' => '限制：这些字段（定价，折扣和数量）只能在其它计算字段没有选定时使用。',
 	'JS_DUPLICATE_RECORD' => '报表重复',
-	'JS_NO_CHART_DATA_AVAILABLE' => '数据不可用#请检查所选字段',
+	'JS_NO_CHART_DATA_AVAILABLE' => '数据不可用，请检查所选字段',
 ];
 

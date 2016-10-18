@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -56,6 +56,7 @@ $languageStrings = [
 	'LBL_JSON_LIBRARY' => 'JSON',
 	'LBL_SESSION_LIBRARY' => 'SESSION',
 	'LBL_DOM_LIBRARY' => '文件对象模型',
+	'LBL_MBSTRING_LIBRARY' => 'php_mbstring (需要mPDF)',
 	'LBL_ZIP_ARCHIVE' => 'ZIP',
 	'LBL_SPACE' => '能力',
 	'LBL_SPACE_TOTAL' => '总计',
@@ -63,6 +64,6 @@ $languageStrings = [
 	'LBL_SPACE_USED' => '已使用',
 	'LBL_VALUE' => '值',
 	'LBL_PHPINI' => 'PHP设置',
- 	'LBL_LOG_FILE' => '日志',
- 	'LBL_CRM_DIR' => 'CRM本地文件夹',
+	'LBL_LOG_FILE' => '日志',
+	'LBL_CRM_DIR' => 'CRM本地文件夹',
 ];

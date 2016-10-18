@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -53,7 +53,8 @@ $languageStrings = [
 	'LBL_TITLE_WIDGET' => '窗口部件标题',
 	'LBL_ADDRESS_RSS' => 'RSS地址 ',
 	'LBL_ADD_CHANNEL' => '添加通道',
-	'LBL_ADD_RSS' => '添加RSS',
+	'LBL_ADD_RSS' => 'RSS',
+	'LBL_ADD_CHART_FILTER' => '筛选器的图表',
 ];
 $jsLanguageStrings = [
 	'JS_BLOCK_ADDED' => '区块已经添加成功',

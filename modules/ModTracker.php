@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -46,4 +46,8 @@ $languageStrings = [
 	'LBL_REVIEW_HISTORY' => '检查历史',
 	'LBL_REVIEWED' => '检查',
 	'BTN_CHANGES_REVIEWED_ON' => '检查修改',
+	'LBL_NUMBER_UNREAD_MAILS' => '未读邮件数量',
+	'LBL_NUMBER_UNREAD_CHANGES' => '未读更改数量',
+	'LBL_REVIEW_CHANGES_LIMIT_DESCRIPTION' => '由于超速更新后的数据操作被添加到 cron 任务队列。',
+	'LBL_ESTIMATED_TIME' => '估计的时间',
 ];

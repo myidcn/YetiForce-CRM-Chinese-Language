@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -69,6 +69,8 @@ $languageStrings = [
 	'Birthdays of contacts' => '联系人的生日',
 	'SINGLE_Leads' => '潜在客户线索',
 	'SINGLE_Vendors' => '供应商',
+	'LBL_SWITCH_ON_DECISION_MAKER' => '决策者',
+	'LBL_SWITCH_OFF_DECISION_MAKER' => '全部', 
 ];
 
 $jsLanguageStrings = [

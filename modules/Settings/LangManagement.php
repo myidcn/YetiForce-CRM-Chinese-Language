@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -22,7 +22,7 @@ $languageStrings = [
 	'LBL_Module_desc' => '此工具可帮助修改和管理系统内的语言翻译.',
 	'LBL_TAB_LIST' => '可用语言',
 	'LBL_TAB_EDITLANG' => '编辑语言',
-	'LBL_TAB_STATS' => '统计信息',
+	'LBL_TAB_STATS' => '统计',
 	'LBL_Lang_label' => '语言',
 	'LBL_Lang_name' => '名称',
 	'LBL_Lang_prefix' => '代码',
@@ -68,11 +68,12 @@ $languageStrings = [
 	'LBL_LANGUAGE' => '语言',
 	'LBL_SHOW' => '显示',
 	'LBL_STATS_INFO' => '统计值显示了未翻译的标签站所有基本语言标签的百分比.',
+	'LBL_UNTRANSLATED_LABELS' => '未翻译标签',
 ];
 $jsLanguageStrings = [
 	'Translations' => '翻译',
-	'LBL_AreYouSure' => '是否确实要删除这种语言？',
-	'JS_ARE_YOU_SURE_TO_SET_AS_DEFAULT' => '你确定你想要更改默认语言？',
+	'LBL_AreYouSure' => '是否确实要删除这种语言？?',
+	'JS_ARE_YOU_SURE_TO_SET_AS_DEFAULT' => '你确定你想要更改默认语言？?',
 	'JS_DEFAULT' => '默认',
 	'Delete' => '删除',
 	'Cancel' => '取消',
@@ -81,4 +82,5 @@ $jsLanguageStrings = [
 	'Search' => '搜索:',
 	'No data available in table' => '没有翻译',
 	'JS_EXPORT' => '导出',
+	'JS_NOTRANSLATION' => '--未翻译--', 
 ];

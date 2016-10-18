@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -120,7 +120,6 @@ $languageStrings = [
 	'LBL_RELATION' => '关系',
 	'LBL_LEGAL_FORM' => '法律形式',
 	'LBL_TOO_MANY_ACCOUNTS_TO_CONVERT' => '至少两个帐户需要符合要求的链接，转到: (行政 > 流程 > 营销流程 > 转换) %s',
-	'Campaign status' => '市场活动状态',
 ];
 
 $jsLanguageStrings = [

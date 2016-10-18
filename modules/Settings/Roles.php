@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -30,7 +30,7 @@ $languageStrings = [
 	'LBL_CAN_ASSIGN_OWNER_TO' => '能够指定记录给',
 	'LBL_CAN_ASSIGN_MULTIOWNER_TO' => '分享给这些用户',
 	'LBL_CHOOSE_PROFILES' => '选择配置文件',
-	'LBL_CLICK_TO_EDIT_OR_DRAG_TO_MOVE' => '点击可编辑#拖动可移动',
+	'LBL_CLICK_TO_EDIT_OR_DRAG_TO_MOVE' => '点击可编辑，拖动可移动',
 	'LBL_COPY_PRIVILEGES_FROM' => '复制权限从',
 	'LBL_DELETE_ROLE' => '删除职位角色',
 	'LBL_DUPLICATES_EXIST' => '复制现有角色',

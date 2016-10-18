@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -103,10 +103,11 @@ $languageStrings = [
 	'LBL_INVENTORY_BALANCE' => '余额',
 	'LBL_DISCOUNT' => '折扣',
 	'LBL_CREDIT_LIMIT' => '信用额度',
-	'Campaign status' => '市场活动状态',
 	// OTHERS
 	'LBL_DEACTIVATED_BY' => '禁用帐户的人是 ',
 	'SINGLE_Vendors' => '供应商',
+	'LBL_NUMBER_OF_ACTIVE_CONTRACTS' => '活动的服务合同的数量',
+	'LBL_VIEW_ACCOUNTSLISTTREE' => '产品和服务',
 ];
 $jsLanguageStrings = [
 	'JS_DUPLICTAE_CREATION_CONFIRMATION' => '帐户名称已存在,您想要创建重复记录吗？',

@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -34,6 +34,6 @@ $languageStrings = [
 	'PriceBooks' => '价格表',
 	'SINGLE_PriceBooks' => '价格表',
 	'yes' => '是',
-	'no' => '否//Yes or No',
+	'no' => '否',
 	'Unit Price' => '单位价格',
 ];

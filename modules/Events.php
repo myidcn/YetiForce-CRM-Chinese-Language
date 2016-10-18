@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -43,7 +43,7 @@ $languageStrings = [
 	'LBL_DAY4' => '星期四',
 	'LBL_DAY5' => '星期五',
 	'LBL_DAY6' => '星期六',
-	'LBL_DAY_OF_THE_MONTH' => '天#本月',
+	'LBL_DAY_OF_THE_MONTH' => '天，本月',
 	'LBL_DAYS' => '天',
 	'LBL_DAYS_TYPE' => '每天',
 	'LBL_EVENT_INFORMATION' => '事件细节',
@@ -120,5 +120,10 @@ $languageStrings = [
 	'LBL_REMAIND_HOURS' => '选择在多少小时后提醒',
 	'LBL_REMAIND_MINS' => '选择在多少分钟后提醒',
 	'LBL_SELECT_INVITE' => '邀请其他',
+	'LBL_SAVE_AND_CLOSE' => '保存并关闭',
+	'LBL_NEEDS-ACTION' => '等待接受',
+	'LBL_ACCEPTED' => '接受',
+	'LBL_DECLINED' => '拒绝',
+	'LBL_AUTO_FILL_DESCRIPTION' => '根据可用的日期填写开始日期',
 ];
 

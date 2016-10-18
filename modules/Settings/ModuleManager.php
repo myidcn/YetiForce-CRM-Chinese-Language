@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -31,7 +31,7 @@ $languageStrings = [
 	'LBL_IMPORTED_EXTENSION' => '已成功安装扩展.',
 	'LBL_IMPORTED_LANGUAGE' => '语言已经成功安装.',
 	'LBL_PUBLISHER' => '发布商',
-	'LBL_LICENSE' => '许可',
+	'LBL_LICENSE' => '许可证书',
 	'LBL_PUBLISHED_ON' => '发表于',
 	'LBL_INSTALL' => '安装',
 	'LBL_UPGRADE' => '升级',
@@ -39,7 +39,7 @@ $languageStrings = [
 	'LBL_DECLINE' => '拒绝',
 	'LBL_ACCEPT_AND_INSTALL' => '接受并安装',
 	'LBL_INVALID_FILE' => '无效的文件',
-	'LBL_NO_LICENSE_PROVIDED' => '没有提供许可',
+	'LBL_NO_LICENSE_PROVIDED' => '没有提供许可证书',
 	'LBL_INSTALLATION' => '安装',
 	'LBL_FAILED' => '失败',
 	'LBL_SUCCESSFULL' => '成功',
@@ -53,7 +53,7 @@ $languageStrings = [
 	'LBL_UPDATE_TO_VERSION' => '到版本',
 	'LBL_LICENSE_ACCEPT_AGREEMENT' => '我接受许可协议.',
 	'LBL_EXISTS' => '存在',
-	'LBL_PROCEED_WITH_IMPORT' => '要继续导入么？',
+	'LBL_PROCEED_WITH_IMPORT' => '要继续导入么？?',
 	'LBL_VERSION_NOT_SUPPORTED' => '模块的版本不兼容 YetiForce 版本',
 	'LBL_FINISH' => '完成',
 	'LBL_IMPORT_ZIP' => '从文件安装',
@@ -86,6 +86,18 @@ $languageStrings = [
 	'LBL_EXTENSION_MODULE' => '扩展模块',
 	'LBL_LANGUAGE_MODULE' => '语言包',
 	'LBL_VIEW_MODULEIMPORT' => '导入',
+	// Library
+	'LBL_LIBRARY_NAME' => '名称',
+	'LBL_LIBRARY_STATUS' => '状态',
+	'LBL_LIBRARY_URL' => '库存储库地址',
+	'LBL_LIBRARY_DIR' => '库文件夹',
+	'LBL_LIBRARY_ACTION' => '操作',
+	'BTN_LIBRARY_DOWNLOAD' => '下载库',
+	'BTN_LIBRARY_UPDATE' => '更新库',
+	'LBL_LIBRARY_DOWNLOADED' => '已下载',
+	'LBL_LIBRARY_NO_DOWNLOAD' => '未下载',
+	'LBL_LIBRARY_NEEDS_UPDATING' => '所需的更新',
+	'LBL_NO_PERMISSION_TO_DIR' => '没有这些目录的访问权限',
 ];
 $jsLanguageStrings = [
 	'JS_UPDATED_MODULE' => '更新成功',

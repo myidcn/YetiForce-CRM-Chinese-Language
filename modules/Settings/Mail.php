@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -36,7 +36,7 @@ $languageStrings = [
 	'LBL_SHOW_MAIL_ACCOUNTS' => '显示电子邮件帐户相关的当前用户',
 	'LBL_NUMBER_UNREAD_EMAILS' => '显示未读邮件数',
 	'LBL_MAIL_ICON_CONFIG' => '邮件图标',
-	'LBL_AUTOLOGIN_ACTIVE' => '启用自动登录？',
+	'LBL_AUTOLOGIN_ACTIVE' => '启用自动登录？?',
 	'LBL_ADD_SIGNATURE' => '激活所有传出电子邮件的全球页脚',
 	'LBL_SIGNATURE' => '全局签名',
 	'LBL_SAVED_SIGNATURE' => '保存的签名',

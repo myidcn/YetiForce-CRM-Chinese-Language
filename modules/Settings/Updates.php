@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -25,7 +25,7 @@
 $languageStrings = [
 	'Updates' => '更新',
 	'LBL_YES' => '是',
-	'LBL_NO' => '否//Yes or No',
+	'LBL_NO' => '否',
 	'LBL_TIME' => '日期',
 	'LBL_USER' => '用户名',
 	'LBL_FROM_VERSION' => '从版本',
@@ -34,4 +34,5 @@ $languageStrings = [
 	'LBL_UPDATES' => '更新',
 	'LBL_UPDATES_DESCRIPTION' => '更新历史',
 	'LBL_IMPORT_UPDATE' => '上传更新',
+	'LBL_NAME_PACKAGES' => '名称',
 ];

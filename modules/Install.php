@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -74,7 +74,7 @@ $languageStrings = [
 	'LBL_WELCOME_TO_VTIGER6_SETUP_WIZARD' => '欢迎使用YetiForce CR安装向导',
 	'LBL_WELCOME' => '欢迎',
 	'LBL_ZLIB_SUPPORT' => 'Zlib Support',
-	'MSG_DB_PARAMETERS_INVALID' => '指定的数据库用户#密码#主机名#数据库类型#或端口无效',
+	'MSG_DB_PARAMETERS_INVALID' => '指定的数据库用户，密码，主机名，数据库类型或端口无效',
 	'MSG_DB_ROOT_USER_NOT_AUTHORIZED' => '提示：指定的数据库根用户没有创建数据库的权限或数据库名中含有非法字符。尝试更改数据库设置',
 	'MSG_DB_USER_NOT_AUTHORIZED' => '指定的数据库中的用户不具有从本机连接到数据库服务器的访问权限',
 	'MSG_LIST_REASONS' => '这可能是由于以下原因：',
@@ -120,7 +120,7 @@ $jsLanguageStrings = [
 	'LBL_PASS_LACK_OF_LOWERCASE_LETTERS' => '密码必须包含小写字母',
 	'LBL_PASS_INSUFFICIENTLY_STRONG_PASSWORD' => '不够强的密码',
 	'LBL_PHP_WARNING' => '一些 PHP 设置不能满足的推荐的值。这可能会影响一些 YetiForce CRM 的功能。您确定要继续吗？',
-	'LBL_MANDATORY_FIELDS_ERROR' => '警告！必填字段为空.',
+	'LBL_MANDATORY_FIELDS_ERROR' => '警告！必填字段为空。',
 	'LBL_PASS_REENTER_ERROR' => '密码和重新输入密码不匹配。请重新输入.',
 	'LBL_INVALID_EMAIL_ERROR' => '警告!无效邮件地址.',
 	'LBL_RESOLVE_ERROR' => '安装程序之前，请先解决错误',

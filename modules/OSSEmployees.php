@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -64,4 +64,7 @@ $languageStrings = [
 	'Inactive' => '未启用',
 	'Average daily working time' => '平均每日工作时间',
 	'LBL_USER_EXISTS' => '已经存在的员工',
+	'FL_POSITION' => '位置',
+	'FL_SECONDARY_PHONE' => '备用电话',
+	'FL_RBH' => 'RBH'
 ];

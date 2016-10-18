@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -37,7 +37,7 @@ $languageStrings = [
 	'LBL_DOCUMENT_BODY' => '主要内容',
 	'LBL_DOCUMENT_FOOTER' => '页脚内容',
 	'LBL_DOCUMENT_EXCEPTIONS' => '例外',
-	'LBL_DOCUMENT_PERMISSIONS' => '许可',
+	'LBL_DOCUMENT_PERMISSIONS' => '许可权限',
 	'LBL_DOCUMENT_WATERMARK' => '水印',
 	'Module' => '模块',
 	'active' => '激活',
@@ -112,7 +112,7 @@ $languageStrings = [
 	'LBL_UPLOAD_TEMPLATE' => '导入',
 	'LBL_GO_TO_TEMPLATE' => '单击进入导入模板.',
 	'LBL_RETURN' => '返回',
-	'LBL_PERMISSIONS_DETAILS' => '许可',
+	'LBL_PERMISSIONS_DETAILS' => '许可权限',
 	'LBL_INSERT' => '插入',
 	'PAGENO' => '页数',
 	'PAGENUM' => '页码',
@@ -120,6 +120,8 @@ $languageStrings = [
 	'LBL_FOOTER_HEIGHT' => '页脚空白',
 	'LBL_HEADER_IN_MILIMETERS' => '头部空白（从顶部开始，mm）',
 	'LBL_FOOTER_IN_MILIMETERS' => '页脚空白（从底部开始，mm）',
+	'LBL_GENERATE_ONE_PDF' => '为多个记录生成PDF',
+	'LBL_GENERATE_ONE_PDF_INFO' => '如果PDF包含一个特殊的功能，生成多个记录在一个表格中时，选中此框将导致生成一个 PDF 文件。',
 	// page format names
 	'4A0' => '4A0',
 	'2A0' => '2A0',

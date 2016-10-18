@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,7 +23,7 @@ $languageStrings = [
 	'LBL_RECORDS_LIST' => '服务列表',
 	// Blocks
 	'LBL_SERVICE_INFORMATION' => '服务细节',
-	'LBL_MORE_CURRENCIES' => '更多币种#',
+	'LBL_MORE_CURRENCIES' => '更多币种',
 	'LBL_PRICES' => '服务价格',
 	'LBL_PRICE' => '价格',
 	'LBL_RESET_PRICE' => '重设价格',

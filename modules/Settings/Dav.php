@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -46,8 +46,8 @@ $languageStrings = [
 	'LBL_VIEW_KEYS' => 'DAV 键',
 	'Dav' => 'DAV 键',
 	'LBL_DUPLICATE_USER_SERVICES' => '这个应用程序的秘钥已经存在.',
-	'LBL_ALERT_DAV_CONFIG_TITLE' => 'Configuration info',
-	'LBL_ALERT_DAV_CONFIG_DESC' => 'Examples of DAV server connection configuration for different apps and systems:<br><b>DAVdroid</b><br>Address: https://gitdeveloper.yetiforce.com/api/dav.php<br>Preventive authorization NO<br><b>Thunderbird CalDAV</b><br>Address: https://gitdeveloper.yetiforce.com/api/dav.php/calendars/demo/YFCalendar/<br><b>iOS</b><br>Address: http://gitdeveloper.yetiforce.com/api/dav.php/principals/demo/ <br>For SSL connections: <br> http://gitdeveloper.yetiforce.com:443/api/dav.php/principals/demo/',
+	'LBL_ALERT_DAV_CONFIG_TITLE' => '培训信息',
+	'LBL_ALERT_DAV_CONFIG_DESC' => '不同引用和系统的DAV服务器连接配置样例:<br><b>DAVdroid</b><br>Address: https://gitdeveloper.yetiforce.com/api/dav.php<br>Preventive authorization NO<br><b>Thunderbird CalDAV</b><br>Address: https://gitdeveloper.yetiforce.com/api/dav.php/calendars/demo/YFCalendar/<br><b>iOS</b><br>Address: http://gitdeveloper.yetiforce.com/api/dav.php/principals/demo/ <br>For SSL connections: <br> http://gitdeveloper.yetiforce.com:443/api/dav.php/principals/demo/',
 ];
 $jsLanguageStrings = [
 	'Adding a Key' => '添加秘钥',

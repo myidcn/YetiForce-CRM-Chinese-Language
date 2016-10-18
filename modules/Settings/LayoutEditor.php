@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -143,20 +143,20 @@ $languageStrings = [
 	'LBL_CURRENCY_DESC' => '列表中的可用货币，添加一种货币，基于当前汇率机制进行计算.',
 	'LBL_DISCOUNT_MODE_DESC' => '可用折扣模式列表：团体或个人.',
 	'LBL_TAX_MODE_DESC' => '可用税费模式列表：团体或个人.',
-	'LBL_COMMENT_DESC' => '所见即所得的字段用于为给定元素输入到给定的元素，默认情况下该字段折叠.',
+	'LBL_COMMENT_DESC' => '所见即所得的字段用于为给定元素输入到给定的元素，默认情况下该字段折叠。',
 	'LBL_DISCOUNT_DESC' => '数值字段：用于输入选定元素的折扣，折扣可以从可用折扣列表中选择。 求和可以在系统管理中定义',
-	'LBL_GROSS_PRICE_DESC' => '自动计算的非可编辑字段，包含一个元素的最终价格（折扣后和税后的价格）.',
-	'LBL_ITEM_NAME_DESC' => '必填基本字段中，指定从中选择记录的模块。此外包括限制设置来阻止记录保存时达到的信贷限制.',
-	'LBL_QUANTITY_DESC' => '数值字段用于输入每个记录的数量，例如产品数量，他的值必须大于0.',
-	'LBL_UNIT_PRICE_DESC' => '用于输入指定记录单价的数值字段，例如一个产品的单价.',
-	'LBL_TOTAL_PRICE_DESC' => '非可编辑字段自动计算，含有给定条件的净价折扣（数量*单价）.',
-	'LBL_DISCOUNT_PRICE_DESC' => '非可编辑字段自动计算，折扣包括折后净价折扣（净价格-折扣）.',
-	'LBL_TAX_DESC' => '数值字段用于输入给定元素的税值，税种可以从可用税种列表中选择。 求和可以在系统管理中定义.',
-	'LBL_VALUE_DESC' => '用户可以输入任何值的附加字段.',
-	'LBL_REFERENCE_DESC' => '用于关联系统中任何记录给定元素的附件字段.',
-	'LBL_PURCHASE_DESC' => '用于输入指定元素的购买/采集值的数值字段.',
-	'LBL_MARGIN_DESC' => '非可编辑字段自动计算，包含给定元素的利润值 （价格折扣后-"购买），不包括税.',
-	'LBL_MARGIN_PERCENT_DESC' => '自动计算的非可编辑字段，包含用百分比表示的利润值.',
+	'LBL_GROSS_PRICE_DESC' => '自动计算的非可编辑字段，包含一个元素的最终价格（折扣后和税后的价格）。',
+	'LBL_ITEM_NAME_DESC' => '必填基本字段中，指定从中选择记录的模块。此外包括限制设置来阻止记录保存时达到的信贷限制。',
+	'LBL_QUANTITY_DESC' => '数值字段用于输入每个记录的数量，例如产品数量，他的值必须大于0。',
+	'LBL_UNIT_PRICE_DESC' => '用于输入指定记录单价的数值字段，例如一个产品的单价。',
+	'LBL_TOTAL_PRICE_DESC' => '非可编辑字段自动计算，含有给定条件的净价折扣（数量*单价）。',
+	'LBL_DISCOUNT_PRICE_DESC' => '非可编辑字段自动计算，折扣包括折后净价折扣（净价格-折扣）。',
+	'LBL_TAX_DESC' => '数值字段用于输入给定元素的税值，税种可以从可用税种列表中选择。 求和可以在系统管理中定义。',
+	'LBL_VALUE_DESC' => '用户可以输入任何值的附加字段。',
+	'LBL_REFERENCE_DESC' => '用于关联系统中任何记录给定元素的附件字段。',
+	'LBL_PURCHASE_DESC' => '用于输入指定元素的购买/采集值的数值字段。',
+	'LBL_MARGIN_DESC' => '非可编辑字段自动计算，包含给定元素的利润值 （价格折扣后-"购买），不包括税。',
+	'LBL_MARGIN_PERCENT_DESC' => '自动计算的非可编辑字段，包含用百分比表示的利润值。',
 	'LBL_ITEM_NUMBER' => '项目编号',
 	'LBL_ITEM_NUMBER_DESC' => '包括项目编号的字段',
 	'LBL_PICKLIST_FIELD' => '从字段中选择',
@@ -198,11 +198,11 @@ $jsLanguageStrings = [
 	'JS_UPDATED_FIELD_LIST_MODULE_RELATED' => '字段列表已更新',
 	'JS_FIELD_CAN_NOT_BE_EMPTY' => '字段不能为空',
 	'JS_RESERVED_PICKLIST_NAME' => '此选择列表名称是保留字.',
-	'JS_REMOVE_RELATION_OK' => '已成功删除关系.',
+	'JS_REMOVE_RELATION_OK' => '已成功删除关联。',
 	'JS_DELETE_RELATION_CONFIRMATION' => '您确定您要删除吗？',
 	'JS_DELETE_INVENTORY_CONFIRMATION' => '你确定你想要删除的元素从块？',
-	'JS_EXTENDED_MODULE' => '你确定你想要更改的模块类型？',
-	'JS_SAVE_CHANGES' => '更改已成功保存.',
+	'JS_EXTENDED_MODULE' => '你确定你想要更改的模块类型？?',
+	'JS_SAVE_CHANGES' => '更改已成功保存。',
 	'JS_NOTIFY_COPY_TEXT' => '已复制到剪贴板',
 	'JS_NOTIFY_COPY_TITLE' => '文本',
 ];

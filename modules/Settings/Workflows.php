@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -147,7 +147,7 @@ $languageStrings = [
 	'PaymentsIn - UpdateBalance' => '收入-更新资产负债表',
 	'Invoice - UpdateBalance' => '发票-更新收支平衡时',
 	'ON_SCHEDULE' => '定义执行时间表',
-	'LBL_RUN_WORKFLOW' => '执行频率：:',
+	'LBL_RUN_WORKFLOW' => '执行频率：',
 	'LBL_HOURLY' => '每小时',
 	'LBL_DAILY' => '每天',
 	'LBL_WEEKLY' => '每周',
@@ -155,11 +155,11 @@ $languageStrings = [
 	'LBL_MONTHLY_BY_DATE' => '每月“日”视图',
 	'LBL_MONTHLY_BY_WEEKDAY' => '每月“周”视图',
 	'LBL_YEARLY' => '每年',
-	'LBL_AT_TIME' => '时间：:',
-	'LBL_ON_THESE_DAYS' => '在这些天里：:',
-	'LBL_CHOOSE_DATE' => '选择日期：:',
-	'LBL_SELECT_MONTH_AND_DAY' => '选定的月份和日期：:',
-	'LBL_SELECTED_DATES' => '所选的日期：:',
+	'LBL_AT_TIME' => '时间：',
+	'LBL_ON_THESE_DAYS' => '在这些天里：',
+	'LBL_CHOOSE_DATE' => '选择日期：',
+	'LBL_SELECT_MONTH_AND_DAY' => '选定的月份和日期：',
+	'LBL_SELECTED_DATES' => '所选的日期：',
 	'LBL_ACTIVATION_TASKS' => '激活任务',
 	'LBL_DEACTIVATION_TASKS' => '停用任务',
 	'LBL_ALL_TASKS' => '所有任务',
@@ -225,12 +225,12 @@ $languageStrings = [
 	'LBL_IMPORT_VIEW' => '触发器导入',
 	'LBL_TRIGGER_XML' => 'XML文件',
 	'LBL_UPLOAD_TRIGGER' => '导入',
-	'LBL_UPLOAD_ERROR' => '从XML文件导入触发器记录不成功！!',
-	'LBL_UPLOAD_OK' => '触发器XML文件已成功导入.',
+	'LBL_UPLOAD_ERROR' => '从XML文件导入触发器记录不成功！',
+	'LBL_UPLOAD_OK' => '触发器XML文件已成功导入。',
 	'LBL_RETURN' => '返回',
-	'LBL_GO_TO_TEMPLATE' => '单击以转到导入的记录.',
+	'LBL_GO_TO_TEMPLATE' => '单击以转到导入的记录。',
 	'LBL_SCRIPT_EXISTS_FUNCTION_NOT' => '脚本物理上存在，但不包含导入的函数名称。手动将 %s 添加到 %s.',
-	'LBL_FAILED_TO_SAVE_SCRIPT' => '未能保存工作流方式脚本文件。手动将 %s 复制到 %s.',
+	'LBL_FAILED_TO_SAVE_SCRIPT' => '未能保存工作流方式脚本文件。手动将 %s 复制到 %s 。',
 	'LBL_MESSAGES_FROM_USERS' => '来自用户的消息',
 	'LBL_WATCHDOG' => '跟踪更改',
 	'LBL_UPDATE_WORK_TIME' => '更新工作时间',
@@ -278,6 +278,6 @@ $jsLanguageStrings = [
 	'JS_STATUS_CHANGED_SUCCESSFULLY' => '已成功更改状态',
 	'JS_TASK_DELETED_SUCCESSFULLY' => '已成功删除的任务',
 	'JS_WORKFLOW_SAVED_SUCCESSFULLY' => '工作流保存成功',
-	'LBL_STATUS_CONFIRMATION' => '你确定要更改所有任务的状态？',
+	'LBL_STATUS_CONFIRMATION' => '你确定要更改所有任务的状态？?',
 	'JS_TASKS_STATUS_GETTING_CHANGED' => '更改任务状态...',
 ];

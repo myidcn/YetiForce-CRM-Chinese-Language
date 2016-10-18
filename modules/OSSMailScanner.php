@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -69,6 +69,11 @@ $languageStrings = [
 	'MailView config' => '配置',
 	'General Configuration' => '常规配置',
 	'Search email configuration' => '搜索电子邮件配置',
+	'LBL_TICKET_REOPEN' => '创建/新开服务单',
+	'LBL_OPEN_TICKET' => '新开服务单并设置为‘等待回应’状态',
+	'LBL_CREATE_TICKET' => '创建新服务单',
+	'LBL_NO_ACTION' => '关联到现有服务单 (如果增加了关联操作)',
+	'LBL_CONFTAB_CHANGE_TICKET_STATUS' => '当我们收到关于一封服务单已关闭的邮件时，扫描程序该怎么办？',
 	'Alert_no_module_title' => '本模块未找到或处于关闭状态.',
 	'Alert_no_module_desc' => '扫描模块需要您安装和计划外发邮件模块，请检查此模块是否安装，如果没有安装，您需要安装它.',
 	'Alert_no_accounts_title' => '找不到的电子邮件帐户',
@@ -129,7 +134,7 @@ $languageStrings = [
 	'permissions_all' => '对所有可见',
 	'permissions_vtiger' => '基于 vtiger 权限',
 	'permissions_user_email' => '基于用户地址',
-	'Permissions' => '许可',
+	'Permissions' => '许可权限',
 	'User' => '用户',
 	'None' => '选择用户',
 	'User list' => '用户列表',
@@ -151,7 +156,7 @@ $languageStrings = [
 	'Action_CronBind' => '计划任务-绑定',
 	'Action_ChangeType' => '更改邮件类型',
 	'AccontDeleteOK' => '已删除的帐户',
-	'No' => '否//Yes or No',
+	'No' => '否',
 	'LBL_MAIL_LOGS' => '邮件日志',
 	'Group list' => '组列表',
 	'LBL_ACTIVE_MAIL' => '激活',

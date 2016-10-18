@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.2.0
+ *  Version      : 3.4.87
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-09-01
+ *  Update Date  : 2016-10-17
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -50,7 +50,7 @@ $languageStrings = [
 	'LBL_DAY4' => '星期四',
 	'LBL_DAY5' => '星期五',
 	'LBL_DAY6' => '星期六',
-	'LBL_DAY_OF_THE_MONTH' => '天#本月',
+	'LBL_DAY_OF_THE_MONTH' => '天，本月',
 	'LBL_DEFAULT_EVENT_DURATION' => '默认事件持续时间',
 	'LBL_DEFAULT_STATUS_TYPE' => '默认的状态和类型',
 	'LBL_DELETE_CALENDAR' => '删除日程',
@@ -154,12 +154,13 @@ $languageStrings = [
 	'LBL_CACHE_SELECTED_FILTERS' => '日历中的标准视图已更改。单击"清除视图"以将其清除.',
 	'LBL_CACHE_CLEAR' => '清除视同',
 	'LBL_PROCESS' => '处理',
+	'LBL_SAVE_AND_CLOSE' => '保存并关闭',
 ];
 
 $jsLanguageStrings = [
 	'JS_CALENDAR_VIEW_ADDED_SUCCESSFULLY' => '已成功添加的日历视图',
 	'JS_CALENDAR_VIEW_COLOR_UPDATED_SUCCESSFULLY' => '已成功更新的日历视图颜色',
-	'JS_CALENDAR_VIEW_DELETE_CONFIRMATION' => '您确定要删除此日历视图吗？ ?',
+	'JS_CALENDAR_VIEW_DELETE_CONFIRMATION' => '您确定要删除此日历视图吗？ ',
 	'JS_CALENDAR_VIEW_DELETED_SUCCESSFULLY' => '已成功删除的日历视图',
 	'JS_EDIT_CALENDAR' => '编辑日历',
 	'JS_NO_CALENDAR_VIEWS_TO_ADD' => '没有添加日历视图',
@@ -196,7 +197,7 @@ $jsLanguageStrings = [
 	'JS_Private' => '私人',
 	'JS_Public' => '公共',
 	'Mobile Call' => '手机通话',
-	'JS_CHANGE_ACTIVITY_TIME' => '将状态更改为 ︰ 用于处理或历史',
+	'JS_CHANGE_ACTIVITY_TIME' => '将状态更改为：用于处理或历史',
 	'JS_ASSIGNED_TO' => '分配给',
 	'JS_SWITCHING_DAYS' => '转换天 ',
 	'JS_ALL' => '全部',
