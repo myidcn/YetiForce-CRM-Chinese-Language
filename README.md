@@ -1,5 +1,11 @@
 # YetiForce-CRM-Chinese-language
 
+
+yetiforce 4.2.514中文语言包请到此处下载。
+Please download here。
+
+https://github.com/myidcn/YetiForce-CRM-Chinese-Language/releases
+
 yetiforce 3.4.87中文语言包请到此处下载。
 Please download here。
 
