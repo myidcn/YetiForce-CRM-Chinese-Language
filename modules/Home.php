@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,31 +23,32 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'ALVT' => '最近的客户',
+	'ALVT' => '最新客户',
 	'CVLVT' => '关键指标',
-	'GRT' => '分配给我所在的组的',
-	'HDB' => '首页控制板',
-	'HLT' => '近期服务单',
+	'GRT' => '用户组的分配',
+	'HDB' => '首页仪表板',
+	'HLT' => '最新支持服务单',
 	'Home' => '我的主页',
-	'ILTI' => '最近发票',
-	'LTFAQ' => '我最近的常见问题',
-	'OLTPO' => '最近采购订单',
+	'ILTI' => '最新账单',
+	'LTFAQ' => '最新的常见问题',
+	'OLTPO' => '最新采购订单',
 	'PA' => '近期活动',
-	'PLVT' => '最近的销售机会',
-	'QLTQ' => '最近的报价单',
+	'PLVT' => '最新销售机会',
+	'QLTQ' => '最新报价单',
 	'UA' => '即将进行的活动',
 	'LBL_MARK_AS_READ' => '标记为“已读”',
-	'LBL_NO_NOTIFICATIONS' => '无通知',
 	'Notifications' => '通知',
 	'LBL_MESSAGES_FROM_USERS' => '来自用户',
-	'LBL_WATCHDOG' => '跟踪更改',
+	'LBL_WATCHDOG' => '追踪变更',
 	'LBL_SEND_NOTIFICATION_MAIL' => '通过邮件发送',
 	'Home page' => '主页',
-	'LBL_CRON_LAUNCHING_FREQUENCY' => '计划任何启动频率',
-	'LBL_CRON' => '计划任务',
+	'LBL_CRON_LAUNCHING_FREQUENCY' => '定时任务启动频率',
+	'LBL_CRON' => '定时任务',
 	'LBL_NOTIFICATION_SETTINGS' => '提醒设置',
 	'LBL_TYPE_NOTIFICATIONS' => '通知类型',
 	'LBL_TIME' => '时间',
+	'LBL_NOTIFICATION_BY_SENDER' => '通知的发件人数',
+	'LBL_NOTIFICATION_BY_RECIPIENT' => '通知的收件人数',
 ];
 
 $jsLanguageStrings = [

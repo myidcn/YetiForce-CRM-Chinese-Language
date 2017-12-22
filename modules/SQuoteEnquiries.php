@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,10 +13,15 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* {[The file is published on the basis of YetiForce Public License that can be found in the following directory: licenses/License.html]} */
+/**
+ * SQuoteEnquiries english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
-	'SQuoteEnquiries' => '销售查询',
-	'SINGLE_SQuoteEnquiries' => '销售查询',
+	'SQuoteEnquiries' => '客户询价',
+	'SINGLE_SQuoteEnquiries' => '客户询价',
 	//BLOCKS
 	'LBL_QUOTESENQUIRES_INFORMATION' => '基本信息',
 	'LBL_CUSTOM_INFORMATION' => '系统信息',
@@ -31,7 +36,7 @@ $languageStrings = [
 	'SINGLE_SSalesProcesses' => '销售机会（商机）',
 	//PICKLIST VALUES
 	'PLL_DRAFT' => '草稿',
-	'PLL_IN_REALIZATION' => '在实现',
+	'PLL_IN_REALIZATION' => '执行中',
 	'PLL_FOR_VERIFICATION' => '等待验证',
 	'PLL_CANCELLED' => '已取消',
 	'PLL_COMPLETED' => '已完成',

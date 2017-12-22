@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,17 +23,17 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'Campaign Name' => '营销活动名称',
-	'Campaign No' => '编号.',
-	'Campaigns' => '营销活动',
-	'SINGLE_Campaigns' => '市场营销活动',
-	'LBL_ADD_RECORD' => '添加记录',
-	'LBL_RECORDS_LIST' => '营销活动列表',
+	'Campaign Name' => '市场活动名称',
+	'Campaign No' => '编号',
+	'Campaigns' => '市场活动',
+	'SINGLE_Campaigns' => '市场市场活动',
+	'LBL_ADD_RECORD' => '添加市场活动',
+	'LBL_RECORDS_LIST' => '市场活动列表',
 	//FIELDS
 	'Budget Cost' => '市场活动预算',
 	'Campaign Type' => '类型',
 	//BLOCKS
-	'LBL_CAMPAIGN_INFORMATION' => '营销活动详情',
+	'LBL_CAMPAIGN_INFORMATION' => '市场活动详情',
 	'LBL_EXPECTATIONS_AND_ACTUALS' => '预期和结果',
 	//OTHERS
 	'Complete' => '完成',
@@ -46,7 +46,7 @@ $languageStrings = [
 	'Average' => '一般',
 	'Banner Ads' => '横幅广告',
 	'Cancelled' => '已取消',
-	'Contacted - Never Contact Again' => '已联系-永远不会再联系',
+	'Contacted - Never Contact Again' => '已联系-不再联系',
 	'Contacted - Successful' => '已联系-成功',
 	'Contacted - Unsuccessful' => '已联系-不成功',
 	'Direct Mail' => '邮件推销',
@@ -57,8 +57,8 @@ $languageStrings = [
 	'Expected ROI' => '预期投资回报率',
 	'Expected Sales Count' => '预期销售数量',
 	'Good' => '好',
-	'Inactive' => '未启用',
-	'Active' => '激活',
+	'Inactive' => '禁用',
+	'Active' => '启用',
 	'--None--' => '- 无 -',
 	'Num Sent' => '发送号码',
 	'Others' => '其它',
@@ -73,10 +73,10 @@ $languageStrings = [
 	'Telemarketing' => '电话营销',
 	'Webinar' => '网络研讨会',
 	'Message sent' => '已发送的消息',
-	'LBL_LOAD_RECORDS' => '从筛选器载入',
-	'LBL_LOAD_RECORDS_INFO' => '用于载入满足筛选器所有指定条件的记录的按钮',
+	'LBL_LOAD_RECORDS' => '从筛选视图载入',
+	'LBL_LOAD_RECORDS_INFO' => '用于载入满足筛选视图所有指定条件的记录的按钮',
 	'LBL_COUNT_RECORDS_WIDGET' => '关联模块记录的数量',
 ];
 $jsLanguageStrings = [
-	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_ADD_THIS_FILTER' => '你确定要从筛选器中添加所有的记录吗？',
+	'JS_LBL_ARE_YOU_SURE_YOU_WANT_TO_ADD_THIS_FILTER' => '你确定要从筛选视图中添加所有的记录吗？',
 ];

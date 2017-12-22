@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,18 +13,22 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* {[The file is published on the basis of YetiForce Public License that can be found in the following directory: licenses/License.html]} */
-
+/**
+ * ServiceContracts english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
 	'LBL_SUMMARY' => '工作时间摘要',
 	// Basic Strings
 	'ServiceContracts' => '服务合同',
 	'Service Contracts' => '服务合同',
 	'SINGLE_ServiceContracts' => '服务合同',
-	'LBL_ADD_RECORD' => '添加记录',
+	'LBL_ADD_RECORD' => '添加服务合同',
 	'LBL_RECORDS_LIST' => '服务合同列表',
 	// Blocks
-	'LBL_SERVICE_CONTRACT_INFORMATION' => '服务合同细节',
+	'LBL_SERVICE_CONTRACT_INFORMATION' => '服务合同详情',
 	//Field Labels
 	'Contract No' => '合同编号',
 	'Start Date' => '开始日期',
@@ -37,16 +41,16 @@ $languageStrings = [
 	'Actual Duration' => '实际工期（天）',
 	//YetiForce
 	'Support' => '技术支持',
-	'Administrative' => '行政',
+	'Administrative' => '管理',
 	'Undefined' => '未定义的',
 	'In Planning' => '计划中',
-	'In Progress' => '正在进行',
+	'In Progress' => '进行中',
 	'On Hold' => '保持',
 	'Complete' => '完成',
 	'Archived' => '已存档',
 	'Due date' => '截止日期',
-	'Related to' => '相关于',
-	'LBL_ACTIVE_SERVICE_CONTRACTS' => '激活服务合同',
+	'Related to' => '关联到',
+	'LBL_ACTIVE_SERVICE_CONTRACTS' => '启用服务合同',
 	'Low' => '低',
 	'Normal' => '一般',
 	'High' => '高',

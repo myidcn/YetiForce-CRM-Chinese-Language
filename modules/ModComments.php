@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -33,20 +33,20 @@ $languageStrings = [
 	'LBL_WRITE_YOUR_COMMENT_HERE' => '此处输入评论',
 	//Field Labels
 	'Comment' => '评论',
-	'Creator' => '编写者',
-	'Related To Comments' => '相关于',
-	'UserId' => '用户ID',
+	'Creator' => '创建者',
+	'Related To Comments' => '关联到',
+	'UserId' => '用户编号',
 	'Customer' => '客户',
 	'ReasonToEdit' => '编辑的理由',
 	//Email notifications
-	'LBL_ADDED_COMMENT_TO_TICKET' => '添加注释到票',
-	'LBL_NEW_COMMENT_FOR_TICKET' => '服务单有了一个评论，评论内容请看下面',
+	'LBL_ADDED_COMMENT_TO_TICKET' => '添加评论到服务单',
+	'LBL_NEW_COMMENT_FOR_TICKET' => '服务单新增了一个评论',
 	'LBL_NOTICE_WELCOME' => '欢迎来到平台',
-	'LBL_NOTICE_FOOTER' => '如果您不想接收项目管理系统的通知，请通知我们，发邮件到:<a href="mailto:help@yetiforce.com" target="_blank">help@yetiforce.com</a>. 如果您没有订阅此邮件，请通知我们，并删除此邮件.',
-	'LBL_NOTICE_CREATED' => '创建者为：',
+	'LBL_NOTICE_FOOTER' => '如果您不想接收项目管理系统的通知，请通知我们，发邮件到:<a href="mailto:help@yetiforce.com" target="_blank">help@yetiforce.com</a>. 如果您没有订阅此邮件，请通知我们，并删除此邮件。',
+	'LBL_NOTICE_CREATED' => '创建于',
 	//Others
 	'LBL_COMMENTS_0' => '当前记录',
-	'LBL_COMMENTS_1' => '进程数',
+	'LBL_COMMENTS_1' => '流程',
 	'LBL_COMMENTS_2' => '子流程',
 	'LBL_COMMENTS_SEARCH' => '搜索',
 ];

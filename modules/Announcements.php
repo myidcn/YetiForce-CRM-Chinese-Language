@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,7 +13,12 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* {[The file is published on the basis of YetiForce Public License that can be found in the following directory: licenses/License.html]} */
+/**
+ * Announcements english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
 	'Announcements' => '公告',
 	'SINGLE_Announcements' => '公告',
@@ -24,6 +29,7 @@ $languageStrings = [
 	'LBL_NUMBER' => '编号',
 	'FL_STATUS' => '状态',
 	'FL_INTERVAL' => '提醒时间',
+	'FL_IS_MANDATORY' => '必须接受',
 	// Picklist values
 	'PLL_DRAFT' => '草稿',
 	'PLL_FOR_ACCEPTANCE' => '等待审批',
@@ -33,6 +39,6 @@ $languageStrings = [
 	'LBL_REMIND_ME_LATER' => '稍后提醒我',
 	'LBL_MARK_AS_READ' => '标记为“已读”',
 	// Others
-	'LBL_ACCEPT_ANNOUNCEMENT' => '是否接受',
+	'LBL_ACCEPT_ANNOUNCEMENT' => '是否已接受',
 	'LBL_DATE' => '查看日期',
 ];

@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,15 +23,15 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'Answer' => '答复',
+	'Answer' => '答案',
 	'Comments' => '评论',
 	'Draft' => '草稿',
 	'Faq' => '常见问题',
 	'Faq No' => '常见问题编号',
-	'General' => '通用',
-	'LBL_ADD_RECORD' => '添加记录',
+	'General' => '常规',
+	'LBL_ADD_RECORD' => '添加常见问题',
 	'LBL_COMMENT_INFORMATION' => '评论',
-	'LBL_FAQ_INFORMATION' => '常见问题信息',
+	'LBL_FAQ_INFORMATION' => '常见问题详情',
 	'LBL_RECORDS_LIST' => '常见问题列表',
 	'LBL_SOLUTION' => '解决方案',
 	'Obsolete' => '已过期',

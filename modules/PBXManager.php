@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,15 +23,14 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-
 	//Blocks
 	'LBL_PBXMANAGER_INFORMATION' => '呼叫详情',
 	'LBL_CUSTOM_INFORMATION' => '自定义信息',
 	// list view settings links
 	'LBL_SERVER_CONFIGURATION' => '供应商参数设置',
 	//Detail view header title
-	'LBL_CALL_FROM' => '呼叫来自',
-	'LBL_CALL_TO' => '呼叫',
+	'LBL_CALL_FROM' => '呼叫来源',
+	'LBL_CALL_TO' => '呼叫目标',
 	//Incoming call pop-up 
 	'LBL_HIDDEN' => '(隐藏)',
 	// Fields
@@ -49,5 +48,5 @@ $languageStrings = [
 	'Customer type' => '客户类型',
 	'Source UUID' => 'Source UUID',
 	'End Time' => '结束时间',
-	'Record Id' => '记录ID',
+	'Record Id' => '记录编号',
 ];

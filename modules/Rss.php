@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -25,7 +25,7 @@
 $languageStrings = [
 	'LBL_ADD_FEED_SOURCE' => '添加Feed订阅源',
 	'LBL_ENTER_FEED_SOURCE' => '输入Feed地址',
-	'LBL_FEEDS_LIST_FROM' => 'Feed订阅列表',
+	'LBL_FEEDS_LIST_FROM' => 'Feed列表表格',
 	'LBL_FEED_SOURCE' => 'Rss订阅源',
 	'LBL_RSS_FEED_SOURCES' => 'Rss Feed订阅源',
 	'LBL_SENDER' => '发件人',
@@ -36,5 +36,5 @@ $languageStrings = [
 $jsLanguageStrings = [
 	'JS_INVALID_RSS_URL' => '无效的RSS链接',
 	'JS_RSS_MADE_AS_DEFAULT' => 'Rss 作为默认',
-	'JS_RSS_SUCCESSFULLY_SAVED' => 'Rss 已成功保存',
+	'JS_RSS_SUCCESSFULLY_SAVED' => 'Rss 已保存',
 ];

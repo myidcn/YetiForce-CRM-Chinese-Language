@@ -14,28 +14,28 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * ISTN english translation
+ * EmailTemplates english translation
  * @package YetiForce.Language
  * @copyright YetiForce Sp. z o.o.
  * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
-	'ISTN' => '仓库周转说明',
-	'SINGLE_ISTN' => '仓库周转说明',
-	'LBL_DESCRIPTION_BLOCK' => '详情',
-	'LBL_ATTENTION_BLOCK' => '评论',
-	'FL_ESTIMATED_DATE' => '预计日期',
-	'FL_NUMBER' => '编号',
-	'FL_SUBJECT' => '标题',
-	'FL_STATUS' => '状态',
-	'PLL_DRAFT' => '草稿',
-	'PLL_IN_REALIZATION' => '执行中',
-	'PLL_OBJECTIONS' => '拒绝/反对/异议',
-	'PLL_FOR_APPROVAL' => '等待审批',
-	'PLL_CANCELLED' => '已取消',
-	'PLL_ACCEPTED' => '已接受',
-	'PLL_RECEIVED' => '收到',
-	'PLL_TRANSFER' => '转移',
-	'PLL_DISPATCHED' => '发出',
+	'EmailTemplates' => '邮件模板',
+	'SINGLE_EmailTemplates' => '邮件模板',
+	//BLOCKS
+	'LBL_CONTENT_MAIL' => '邮件内容',
+	'LBL_BASIC_DETAILS' => '基本信息',
+	//FIELDS
+	'FL_NAME' => '名称',
 	'FL_TYPE' => '类型',
+	'FL_MODULE' => '模块',
+	'FL_SUBJECT' => '标题',
+	'FL_CONTENT' => '内容',
+	'FL_SMTP_PRIORITY' => 'SMTP优先',
+	// PICKLIST
+	'PLL_MODULE' => '模块',
+	'PLL_RECORD' => '记录',
+	'PLL_MAIL' => '信息',
+	'PLL_LIST' => '列表',
+	'PLL_DEFAULT' => '默认公司',
 ];

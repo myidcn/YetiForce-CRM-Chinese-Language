@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,8 +23,8 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'Active' => '激活',
-	'Document No' => '文档编号.',
+	'Active' => '启用',
+	'Document No' => '文档编号。',
 	'Documents' => '文档',
 	'Download Count' => '下载次数',
 	'Download Type' => '下载类型',
@@ -35,29 +35,29 @@ $languageStrings = [
 	'Last Modified By' => '最后编辑者为',
 	'LBL_ADD_FOLDER' => '添加文件夹',
 	'LBL_ADD_NEW_FOLDER' => '创建新文件夹',
-	'LBL_ADD_RECORD' => '添加记录',
+	'LBL_ADD_RECORD' => '添加文档',
 	'LBL_CHECK_FILE_INTEGRITY' => '检查文件的完整性',
 	'LBL_DENIED_DOCUMENTS' => '不允许的文档类型',
 	'LBL_DESCRIPTION' => '描述',
 	'LBL_DOCUMENTS_MOVED_SUCCESSFULLY' => '文件移动成功',
 	'LBL_DOWNLOAD_FILE' => '下载文件',
-	'LBL_EMAIL_FILE_AS_ATTACHMENT' => '文件作为附件发送Email',
-	'LBL_EXTERNAL' => '外链',
-	'LBL_FILE_AVAILABLE' => '文件可供下载',
+	'LBL_EMAIL_FILE_AS_ATTACHMENT' => '文件作为Email附件发送',
+	'LBL_EXTERNAL' => '外部',
+	'LBL_FILE_AVAILABLE' => '文件可下载',
 	'LBL_FILE_INFORMATION' => '文件信息',
-	'LBL_FILE_NOT_AVAILABLE' => '此文档不提供下载',
+	'LBL_FILE_NOT_AVAILABLE' => '此文档不可下载',
 	'LBL_FOLDER_DESCRIPTION' => '文件夹描述',
 	'LBL_FOLDER_HAS_DOCUMENTS' => '在删除之前，请先移出文件夹中的文档',
 	'LBL_FOLDER_NAME' => '文件夹名称',
 	'LBL_FOLDERS' => '文件夹',
 	'LBL_FOLDERS_LIST' => '文件夹列表',
 	'LBL_INTERNAL' => '内部',
-	'LBL_MAX_UPLOAD_SIZE' => '最大上传文件大小（最大 5MB）',
+	'LBL_MAX_UPLOAD_SIZE' => '最大上传文件大小',
 	'LBL_MOVE' => '移动',
 	'LBL_NOTE_INFORMATION' => '基本信息',
 	'LBL_RECORDS_LIST' => '文档列表',
 	'MB' => 'MB',
-	'Note' => '简介',
+	'Note' => '备注',
 	'SINGLE_Documents' => '文档',
 	'Title' => '标题',
 	'Version' => '版本',
@@ -68,6 +68,7 @@ $languageStrings = [
 	'Default' => '默认',
 	'LBL_SELECT_Documents' => '选择文档',
 	'LBL_RELATIONS' => '关联',
+	'LBL_MASS_ADD' => '批量添加'
 ];
 
 $jsLanguageStrings = [

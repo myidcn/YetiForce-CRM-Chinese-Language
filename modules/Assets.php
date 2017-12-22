@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -26,23 +26,23 @@ $languageStrings = [
 	// Basic Strings
 	'Assets' => '资产',
 	'SINGLE_Assets' => '资产',
-	'LBL_ADD_RECORD' => '添加记录',
+	'LBL_ADD_RECORD' => '添加资产',
 	'LBL_RECORDS_LIST' => '资产列表',
 	// Blocks
 	'LBL_ASSET_INFORMATION' => '资产详细信息',
 	//Field Labels
-	'Asset No' => '资产编号.',
+	'Asset No' => '资产编号',
 	'Serial Number' => '序列号',
 	'Date Sold' => '售出日期',
 	'Date in Service' => '过期日期',
-	'Invoice Name' => '发票号码',
-	'Shipping Tracking Number' => '发货跟踪号码',
+	'Invoice Name' => '账单号码',
+	'Shipping Tracking Number' => '物流跟踪号码',
 	'Asset Name' => '名称',
 	'Customer Name' => '客户名称',
 	'Notes' => '备注',
 	'FL_RENEWAL' => '更新',
 	'LBL_SET_RENEWAL' => '设置更新',
-	'FL_RENEWAL_INVOICE' => '更新的发票',
+	'FL_RENEWAL_INVOICE' => '更新的账单',
 	/* picklist values */
 	'PLL_DRAFT' => '草稿',
 	'PLL_ACCEPTED' => '已接受',
@@ -63,6 +63,6 @@ $languageStrings = [
 	'BLOCK_INFORMATION_TIME' => '时间信息',
 	'LBL_GENERATE_EXTENSION' => '生成扩展',
 	'LBL_ORDER_TIME' => '订单时间',
-	'LBL_EXPIRING_SOLD_PRODUCTS' => '过期产品',
+	'LBL_EXPIRING_SOLD_PRODUCTS' => '过期销售产品',
 	'LBL_CHANGE_STATUS' => '更改状态',
 ];

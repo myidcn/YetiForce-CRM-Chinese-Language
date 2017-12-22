@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,27 +13,23 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* +***********************************************************************************************************************************
- * The contents of this file are subject to the YetiForce Public License Version 1.1 (the "License"); you may not use this file except
- * in compliance with the License.
- * Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
- * See the License for the specific language governing rights and limitations under the License.
- * The Original Code is YetiForce.
- * The Initial Developer of the Original Code is YetiForce. Portions created by YetiForce are Copyright (C) www.yetiforce.com. 
- * All Rights Reserved.
- * Contributor(s): 
- * *********************************************************************************************************************************** */
+/**
+ * OSSSoldServices english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
-	'OSSSoldServices' => '售出的服务集合',
-	'SINGLE_OSSSoldServices' => '售出的服务',
-	'LBL_RECORDS_LIST' => '记录列表',
-	'LBL_ADD_RECORD' => '添加记录',
+	'OSSSoldServices' => '售后服务',
+	'SINGLE_OSSSoldServices' => '售后服务',
+	'LBL_RECORDS_LIST' => '售后服务列表',
+	'LBL_ADD_RECORD' => '添加售后服务',
 	// Blocks
 	'LBL_INFORMATION' => '信息区块',
 	// Field Labels
 	'Number' => '编号',
-	'Assigned To' => '分配对象',
-	'LBL_RODZAJUMOWY' => '协议的类型',
+	'Assigned To' => '负责人',
+	'LBL_RODZAJUMOWY' => '协议类型',
 	'LBL_ssservicesstatus' => '状态',
 	'Product Name' => '产品名称',
 	'Sub Category' => '子类别',
@@ -43,11 +39,11 @@ $languageStrings = [
 	'Description' => '描述',
 	'LBL_DESCRIPTION_INFORMATION' => '详细信息',
 	'LBL_CUSTOM_INFORMATION' => '系统信息',
-	'Where bought' => '在哪里买',
+	'Where bought' => '购买地点',
 	'Services' => '服务',
 	'LBL_GENERATE_EXTENSION' => '生成扩展',
 	'LBL_ORDER_TIME' => '订单时间',
-	'FL_RENEWAL_INVOICE' => '更新的发票',
+	'FL_RENEWAL_INVOICE' => '更新的账单',
 	// picklist values
 	'FL_RENEWAL' => '更新',
 	'PLL_DRAFT' => '草稿',

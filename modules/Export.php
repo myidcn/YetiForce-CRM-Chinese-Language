@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,10 +13,13 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* {[The file is published on the basis of YetiForce Public License
- * that can be found in the following directory: licenses/License.html]} */
-
+/**
+ * Export english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
 	'Export' => '导出',
-	'LBL_INFO_USER_EXPORT_RECORDS' => "只能导出活跃用户",
+	'LBL_INFO_USER_EXPORT_RECORDS' => "只能导出可用用户",
 ];

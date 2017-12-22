@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -13,13 +13,18 @@
  * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
-/* {[The file is published on the basis of YetiForce Public License that can be found in the following directory: licenses/License.html]} */
+/**
+ * KnowledgeBase english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
+ */
 $languageStrings = [
 	'KnowledgeBase' => '知识库',
 	'SINGLE_KnowledgeBase' => '知识库',
 	'KnowledgeBase ID' => '知识库编号',
 	'LBL_CUSTOM_INFORMATION' => '自定义信息',
-	'FL_SUBJECT' => '标题',
+	'FL_SUBJECT' => '知识标题',
 	'LBL_KNOWLEDGEBASE_INFORMATION' => '基本信息',
 	'FL_CONTENT' => '内容',
 	'FL_CATEGORY' => '分类',
@@ -27,14 +32,14 @@ $languageStrings = [
 	'PLL_PAGE' => '页面',
 	'PLL_PRESENTATION' => '演示文稿',
 	'LBL_VIEW_TREE' => '记录树',
-	'LBL_PREVIOUS' => '前一个',
+	'LBL_PREVIOUS' => '上一步',
 	'LBL_NEXT' => '下一步',
-	'LBL_LIST_RECORDS' => '记录列表',
+	'LBL_LIST_RECORDS' => '知识列表',
 	'LBL_RECORD_PREVIEW' => '预览',
 	'FL_STATUS' => '状态',
 	'PLL_DRAFT' => '草稿',
-	'PLL_IN_REALIZATION' => '在实现',
-	'PLL_OBJECTIONS' => '反对（异议）',
+	'PLL_IN_REALIZATION' => '执行中',
+	'PLL_OBJECTIONS' => '拒绝/反对/异议',
 	'PLL_FOR_APPROVAL' => '等待审批',
 	'PLL_CANCELLED' => '已取消',
 	'PLL_ACCEPTED' => '已接受',

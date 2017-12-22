@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -14,14 +14,14 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * FCorectingInvoice language
+ * FCorectingInvoice english translation
  * @package YetiForce.Language
- * @license licenses/License.html
- * @author Tomasz Kur <t.kur@yetiforce.com>
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
-	'FCorectingInvoice' => '更正发票',
-	'SINGLE_FCorectingInvoice' => '更正发票',
+	'FCorectingInvoice' => '正式发票',
+	'SINGLE_FCorectingInvoice' => '正式发票',
 	//BLOCKS
 	'LBL_CUSTOM_INFORMATION' => '系统信息',
 	'LBL_INVOICE_ADDRESS' => '发票地址',
@@ -31,16 +31,16 @@ $languageStrings = [
 	'FL_PAYMENT_DATE' => '截止日期',
 	'FL_SALE_DATE' => '销售日期',
 	'FL_FORM_PAYMENT' => '付款方式',
-	'FL_BANK_ACCOUNT' => '银行账户',
+	'FL_BANK_ACCOUNT' => '银行账号',
 	'FL_NUMBER' => '发票号码',
 	'FL_ACCOUNT' => '客户',
-	'FL_TOTAL' => '网络',
-	'FL_GROSS' => '毛',
+	'FL_TOTAL' => '净总额',
+	'FL_GROSS' => '毛总额',
 	'FL_STATUS' => '状态',
 	//PICKLIST VALUES
-	'PLL_TRANSFER' => '转移',
+	'PLL_TRANSFER' => '转账',
 	'PLL_CASH' => '现金',
 	//OTHERS
-	'LBL_YEAR' => '每年',
-	'FL_INVOICE' => '发票',
+	'LBL_YEAR' => '年',
+	'FL_INVOICE' => '账单',
 ];

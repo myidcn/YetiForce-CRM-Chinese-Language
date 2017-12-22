@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,25 +23,27 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'providertype' => '供应商',
-	'LBL_SMS_MAX_CHARACTERS_ALLOWED' => '短信最多允许160个字符（在中国70个汉字）',
-	'LBL_SEREVER_CONFIG' => '新建配置',
+	'providertype' => '短信提供商',
+	'LBL_SMS_MAX_CHARACTERS_ALLOWED' => '短信最多允许160个字符（在中国是70个汉字）',
+	'LBL_SEREVER_CONFIG' => '新建设置',
 	'username' => '用户名',
 	'password' => '密码',
-	'isactive' => '激活',
+	'isactive' => '启用',
+	'SINGLE_SMSNotifier' => '短信通知',
+	'Server configuration' => '服务器参数设置',
 	// Basic Strings
 	'LBL_SEND_SMS_TO_SELECTED_NUMBERS' => '发送短信给选定的号码',
 	'LBL_STEP_1' => '第一步',
 	'LBL_STEP_2' => '第二步',
-	'LBL_SELECT_THE_PHONE_NUMBER_FIELDS_TO_SEND' => '选择要发送的电话号码字段',
+	'LBL_SELECT_THE_PHONE_NUMBER_FIELDS_TO_SEND' => '选择电话号码字段，以发送短信',
 	'LBL_TYPE_THE_MESSAGE' => '输入消息',
 	'LBL_WRITE_YOUR_MESSAGE_HERE' => '请在这里写下您的消息',
 	'LBL_ADD_MORE_FIELDS' => '添加更多字段',
-	'LBL_SERVER_CONFIG' => '服务器配置',
+	'LBL_SERVER_CONFIG' => '服务器参数设置',
 	//DetailView Actions
 	'LBL_CHECK_STATUS' => '检查状态',
 	'message' => '信息',
 	//Blocks
 	'LBL_SMSNOTIFIER_INFORMATION' => 'SMS信息',
-	'SINGLE_SMSNotifier' => 'SMS短信通知',
+	'SINGLE_SMSNotifier' => '短信通知',
 ];

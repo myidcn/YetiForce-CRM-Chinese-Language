@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -25,8 +25,8 @@
 
 $languageStrings = [
 	'Webservices' => 'Web服务',
-	'LBL_CHANGE_PASSWORD_FAILURE' => '更改密码失败',
-	'LBL_DATABASE_QUERY_ERROR' => '当执行请求的操作时数据库发生错误',
-	'LBL_INVALID_OLD_PASSWORD' => '旧密码值无效.',
-	'LBL_NEW_PASSWORD_MISMATCH' => '新密码和确认密码不匹配',
+	'LBL_CHANGE_PASSWORD_FAILURE' => '密码变更失败',
+	'LBL_DATABASE_QUERY_ERROR' => '执行请求的操作时，数据库发生错误',
+	'LBL_INVALID_OLD_PASSWORD' => '旧密码值无效。',
+	'LBL_NEW_PASSWORD_MISMATCH' => '新密码和确认密码不一样',
 ];

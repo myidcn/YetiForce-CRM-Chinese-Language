@@ -14,28 +14,37 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * ISTN english translation
+ * SVendorEnquiries english translation
  * @package YetiForce.Language
  * @copyright YetiForce Sp. z o.o.
  * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
-	'ISTN' => '仓库周转说明',
-	'SINGLE_ISTN' => '仓库周转说明',
-	'LBL_DESCRIPTION_BLOCK' => '详情',
-	'LBL_ATTENTION_BLOCK' => '评论',
-	'FL_ESTIMATED_DATE' => '预计日期',
-	'FL_NUMBER' => '编号',
-	'FL_SUBJECT' => '标题',
-	'FL_STATUS' => '状态',
+	'SVendorEnquiries' => '向供应商询价',
+	'SQuoteEnquiries' => '向供应商询价',
+	'SINGLE_SQuoteEnquiries' => '向供应商询价',
+	//BLOCKS
+	'LBL_QUOTESENQUIRES_INFORMATION' => '基本信息',
+	'LBL_CUSTOM_INFORMATION' => '系统信息',
+	'LBL_DESCRIPTION_INFORMATION' => '详细介绍',
+	'LBL_STATISTICS' => '统计信息',
+	//FIELDS
+	'LBL_SUBJECT' => '标题',
+	'LBL_NUMBER' => '编号',
+	'LBL_STATUS' => '状态',
+	'LBL_CLOSED_TIME' => '关闭时间',
+	'LBL_RESPONSE_TIME' => '响应时间',
+	'SINGLE_SSalesProcesses' => '销售机会（商机）',
+	'FL_TOTAL_PRICE' => '净总额',
+	'FL_MARGINP' => '利润总额百分比',
+	'FL_MARGIN' => '利润总额',
+	'FL_VENDOR' => '供应商',
+	'FL_SCALCULATIONS' => '价格计算',
+	//PICKLIST VALUES
 	'PLL_DRAFT' => '草稿',
 	'PLL_IN_REALIZATION' => '执行中',
-	'PLL_OBJECTIONS' => '拒绝/反对/异议',
-	'PLL_FOR_APPROVAL' => '等待审批',
+	'PLL_FOR_VERIFICATION' => '等待验证',
 	'PLL_CANCELLED' => '已取消',
-	'PLL_ACCEPTED' => '已接受',
-	'PLL_RECEIVED' => '收到',
-	'PLL_TRANSFER' => '转移',
-	'PLL_DISPATCHED' => '发出',
-	'FL_TYPE' => '类型',
+	'PLL_COMPLETED' => '已完成',
+	'LBL_CHANGE_STATUS' => '更改状态',
 ];

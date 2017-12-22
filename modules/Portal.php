@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -30,15 +30,15 @@ $languageStrings = [
 	'LBL_BOOKMARK_NAME' => '书签名称',
 	'LBL_BOOKMARK_SAVED_SUCCESSFULLY' => '书签保存成功',
 	'LBL_BOOKMARKS' => '书签',
-	'LBL_BOOKMARKS_DELETED_SUCCESSFULLY' => '书签删除成功',
+	'LBL_BOOKMARKS_DELETED_SUCCESSFULLY' => '书签已删除',
 	'LBL_BOOKMARKS_LIST' => '书签列表',
 	'LBL_BOOKMARK_URL' => '书签链接',
 	'LBL_CREATED_ON' => '创建于',
 	'LBL_EDIT_BOOKMARK' => '编辑书签',
 	'LBL_ENTER_BOOKMARK_NAME' => '请输入书签名称',
 	'LBL_ENTER_URL' => '请输入链接地址 (格式如：www.example.com)',
-	'LBL_OUR_SITES_LIST' => '我们的网站清单',
-	'LBL_RECORD_DELETED_SUCCESSFULLY' => '记录删除成功',
+	'LBL_OUR_SITES_LIST' => '我们网站的列表',
+	'LBL_RECORD_DELETED_SUCCESSFULLY' => '已删除',
 	'Portal' => '我们的网站',
 	'SINGLE_Portal' => '我们的网站',
 ];

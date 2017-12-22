@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -23,17 +23,17 @@
  * Contributor(s): YetiForce.com
  * ********************************************************************************** */
 $languageStrings = [
-	'LBL_ADD_RECORD' => '添加记录',
+	'LBL_ADD_RECORD' => '添加价格',
 	'LBL_ADD_TO' => '添加到',
 	'LBL_EDIT_LIST_PRICE' => '编辑价格表',
-	'LBL_PRICEBOOK_INFORMATION' => '价格表信息',
-	'LBL_RECORDS_LIST' => '价格薄列表',
-	'LBL_UNIT_PRICE' => '单位价格',
+	'LBL_PRICEBOOK_INFORMATION' => '价格表详情',
+	'LBL_RECORDS_LIST' => '价格表列表',
+	'LBL_UNIT_PRICE' => '单价',
 	'Price Book Name' => '价格表名称',
 	'PriceBook No' => '价格表编号',
 	'PriceBooks' => '价格表',
 	'SINGLE_PriceBooks' => '价格表',
 	'yes' => '是',
 	'no' => '否',
-	'Unit Price' => '单位价格',
+	'Unit Price' => '单价',
 ];
