@@ -14,21 +14,34 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * RealizationProcesses english translation
+ * AutomaticAssignment english translation
  * @package YetiForce.Language
  * @copyright YetiForce Sp. z o.o.
  * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
-	'LBL_PROJECT_CONFIGURATION' => '项目',
-	'LBL_INFO' => '信息',
-	'LBL_TYPE' => '状态',
-	'LBL_PROJECT' => '项目',
-	'LBL_PROJECT_STATUS_INFO' => '确定项目已关闭的条件',
-	'LBL_SAVE_CONFIG_OK' => '更改已保存。',
-	'LBL_SAVE_CONFIG_ERROR' => '无法保存更改。',
-	'RealizationProcesses' => '实施流程',
+	'LBL_AUTOMATIC_ASSIGNMENT' => '自动分配记录',
+	'AutomaticAssignment' => '自动分配记录',
+	'LBL_AUTOMATICASSIGNMENT_DESCRIPTION' => '工作流详情',
+	// Fields
+	'FL_FIELD' => '字段名称',
+	'FL_MODULE' => '模块',
+	'FL_VALUE' => '值',
+	'FL_ROLES' => '职位角色',
+	'FL_SMOWNERS' => '记录负责人',
+	'FL_SHOWNERS' => '共享给',
+	// Others
+	'LBL_CREATE_RECORD' => '创建记录',
+	'BTN_NEXT' => '下一个',
+	'BTN_CLOSE' => '关闭',
+	'BTN_ADD' => '添加',
+	'LBL_CHANGE_ROLE_TYPE' => '更改角色类型',
+	'LBL_CHANGE_RECORD_STATE' => '更改记录的状态',
+	'BTN_SAVE' => '保存',
+	'LBL_INCLUDE_USERS_RECORD_LIMIT' => '包括用户的记录限制',
+];
+$jsLanguageStrings = [
+	'JS_STATE_CONFIRMATION' => '您确定要更改记录状态？',
+	'JS_SAVE_SUCCESS' => '更改已保存',
 ];
 
-$jsLanguageStrings = [
-];

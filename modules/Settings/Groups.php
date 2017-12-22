@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -22,21 +22,21 @@
  * All Rights Reserved.
  * *********************************************************************************** */
 $languageStrings = [
-	'LBL_ADD_RECORD' => '添加记录',
+	'LBL_ADD_RECORD' => '添加用户组',
 	'LBL_ADD_USERS_ROLES' => '添加用户、 角色...',
-	'LBL_DUPLICATES_EXIST' => '组名称已经存在',
-	'LBL_GROUP_MEMBERS' => '组成员',
-	'LBL_GROUP_NAME' => '工作组名称',
+	'LBL_DUPLICATES_EXIST' => '用户组名称已经存在',
+	'LBL_GROUP_MEMBERS' => '用户组成员',
+	'LBL_GROUP_NAME' => '用户组名称',
 	'LBL_ROLEANDSUBORDINATE' => '职位角色和其下属',
-	'LBL_TO_OTHER_GROUP' => '至其他组 ',
+	'LBL_TO_OTHER_GROUP' => '至其他用户组 ',
 	'LBL_TRANSFORM_OWNERSHIP' => '转移所有权',
-	'SINGLE_Groups' => '组',
+	'SINGLE_Groups' => '用户组',
 	'Users' => '用户',
-	'Name' => '工作组名称',
-	'Description' => '描述',
+	'Name' => '用户组名称',
+	'Description' => '用户组详情',
 ];
 
 $jsLanguageStrings = [
-	'JS_PLEASE_SELECT_ATLEAST_ONE_MEMBER_FOR_A_GROUP' => '每组中请至少选择一个成员',
-	'JS_RECORD_DELETED_SUCCESSFULLY' => '组成功删除',
+	'JS_PLEASE_SELECT_ATLEAST_ONE_MEMBER_FOR_A_GROUP' => '为每个用户组选择至少一个成员',
+	'JS_RECORD_DELETED_SUCCESSFULLY' => '用户组已删除',
 ];

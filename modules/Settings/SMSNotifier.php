@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -25,33 +25,33 @@ $languageStrings = [
 	'Enter new data' => '输入新数据',
 	'LBL_INFORMGRAD_ACCOUNT_NUMBER' => '客户编号',
 	'LBL_SMS_SENDER' => '发件人',
-	'LBL_SMSPM_AUTH_HASH' => '验证哈希',
+	'LBL_SMSPM_AUTH_HASH' => '认证哈希',
 	'LBL_SMS_TIME' => '时间（分钟）',
 	'No' => '否',
 	'Yes' => '是',
 	'User Name' => '用户名',
-	'Provider' => '供应商',
-	'LBL_ADD_RECORD' => '添加记录',
-	'SMSNotifier' => 'SMS供应商配置',
-	'LBL_ADD_CONFIGURATION' => '新建配置',
+	'Provider' => '提供商',
+	'LBL_ADD_RECORD' => '添加短信提供商',
+	'SMSNotifier' => '短信提供商设置',
+	'LBL_ADD_CONFIGURATION' => '新建设置',
 	'LBL_EDIT_CONFIGURATION' => '编辑设置',
 	'LBL_SELECT_ONE' => '选择一个',
 	//Fields
-	'providertype' => '供应商',
-	'isactive' => '激活',
+	'providertype' => '提供商',
+	'isactive' => '启用',
 	'username' => '用户名',
 	'password' => '密码',
 	'api_id' => 'API编号',
-	'from' => '发件人',
+	'from' => '来自',
 	'mo' => ''
 ];
 
 $jsLanguageStrings = [
 	'LBL_INFORMGRAD_ACCOUNT_NUMBER' => '客户编号',
-	'LBL_SMSPM_AUTH_HASH' => '验证哈希',
+	'LBL_SMSPM_AUTH_HASH' => '认证哈希',
 	'LBL_SMS_TIME' => '时间（分钟）',
-	'LBL_SMS_SENDER' => '发件人',
-	'LBL_DELETE_CONFIRMATION' => '您确定想要删除此SMSNotifier 配置吗？?',
-	'JS_RECORD_DELETED_SUCCESSFULLY' => 'SMS提供商已成功删除',
-	'JS_CONFIGURATION_SAVED' => 'SMS提供商配置已保存',
+	'LBL_SMS_SENDER' => '发送人',
+	'LBL_DELETE_CONFIRMATION' => '确定要删除此短信通知设置参数吗？',
+	'JS_RECORD_DELETED_SUCCESSFULLY' => '短信提供商已删除。',
+	'JS_CONFIGURATION_SAVED' => '短信提供商设置已保存',
 ];

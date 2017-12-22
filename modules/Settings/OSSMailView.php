@@ -14,21 +14,12 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * RealizationProcesses english translation
+ * OSSMailView english translation
  * @package YetiForce.Language
  * @copyright YetiForce Sp. z o.o.
  * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
-	'LBL_PROJECT_CONFIGURATION' => '项目',
-	'LBL_INFO' => '信息',
-	'LBL_TYPE' => '状态',
-	'LBL_PROJECT' => '项目',
-	'LBL_PROJECT_STATUS_INFO' => '确定项目已关闭的条件',
-	'LBL_SAVE_CONFIG_OK' => '更改已保存。',
-	'LBL_SAVE_CONFIG_ERROR' => '无法保存更改。',
-	'RealizationProcesses' => '实施流程',
+	'Mail View' => '电子邮件',
 ];
 
-$jsLanguageStrings = [
-];

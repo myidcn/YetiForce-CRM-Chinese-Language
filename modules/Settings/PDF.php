@@ -1,9 +1,9 @@
 <?php
 /* ********************************************************************************
  *  Language     : 简体中文
- *  Version      : 3.4.87
+ *  Version      : 4..2.514
  *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
+ *  Update Date  : 2017-12-22
   ********************************************************************************  
  * 此语言包版权如下所示：
  * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
@@ -14,13 +14,14 @@
  * idercn无任何形式的担保，明示或暗示的保证。
  *+***********************************************************************************/
 /**
- * Polish language
+ * PDF english translation
  * @package YetiForce.Language
- * @license licenses/License.html
- * @author Maciej Stencel <m.stencel@yetiforce.com>
- * @author Mariusz Krzaczkowski <m.krzaczkowski@yetiforce.com>
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 2.0 (licenses/License.html or yetiforce.com)
  */
 $languageStrings = [
+	'PLL_TEXT' => '文本',
+	'PLL_IMAGE' => '图像',
 	'LBL_PDF' => 'PDF',
 	'LBL_PDF_DESCRIPTION' => 'PDF模板配置的测试版本',
 	'LBL_CREATING_PDF' => '新建PDF模板',
@@ -28,8 +29,8 @@ $languageStrings = [
 	'LBL_ENTER_BASIC_DETAILS' => '请输入文档描述',
 	'LBL_FINISH' => '完成',
 	'LBL_NEW' => '新建',
-	'LBL_NEXT' => '下一个',
-	'LBL_STEP_N' => '阶段 %d',
+	'LBL_NEXT' => '下一步',
+	'LBL_STEP_N' => '第%d步',
 	'LBL_PDF_TEMPLATE' => 'PDF模板',
 	'LBL_DOCUMENT_DESCRIPTION' => '文档描述',
 	'LBL_DOCUMENT_SETTINGS' => '文档设置',
@@ -37,18 +38,18 @@ $languageStrings = [
 	'LBL_DOCUMENT_BODY' => '主要内容',
 	'LBL_DOCUMENT_FOOTER' => '页脚内容',
 	'LBL_DOCUMENT_EXCEPTIONS' => '例外',
-	'LBL_DOCUMENT_PERMISSIONS' => '许可权限',
+	'LBL_DOCUMENT_PERMISSIONS' => '权限',
 	'LBL_DOCUMENT_WATERMARK' => '水印',
 	'Module' => '模块',
-	'active' => '激活',
-	'inactive' => '未启用',
+	'PLL_ACTIVE' => '启用',
+	'PLL_INACTIVE' => '禁用',
 	'LBL_PRIMARY_NAME' => '主要名称',
 	'LBL_SECONDARY_NAME' => '附加名称',
 	'LBL_FOLDER_NAME' => '文件夹名称',
 	'LBL_SELECT_MODULE' => '选择模块',
 	'LBL_META_TITLE' => '标题',
 	'LBL_META_AUTHOR' => '作者',
-	'LBL_META_CREATOR' => '编写者',
+	'LBL_META_CREATOR' => '创建者',
 	'LBL_META_SUBJECT' => '标题',
 	'LBL_META_KEYWORDS' => '关键词',
 	'PLL_COMPANY_NAME' => '公司名称',
@@ -59,8 +60,8 @@ $languageStrings = [
 	'LBL_TOP' => '顶部',
 	'LBL_RIGHT' => '右侧',
 	'LBL_BOTTOM' => '底部',
-	'LBL_LEFT' => '左',
-	'LBL_TOP_IN_MILIMETERS' => '顶部部空白（mm）',
+	'LBL_LEFT' => '左侧',
+	'LBL_TOP_IN_MILIMETERS' => '顶部空白（mm）',
 	'LBL_BOTTOM_IN_MILIMETERS' => '底部空白（mm）',
 	'LBL_LEFT_IN_MILIMETERS' => '左侧空白（mm）',
 	'LBL_RIGHT_IN_MILIMETERS' => '右侧空白（mm）',
@@ -69,7 +70,7 @@ $languageStrings = [
 	'PLL_PORTRAIT' => '纵向',
 	'LBL_LANGUAGE_CHOICE' => '语言选项',
 	'LBL_FILENAME' => '生成文件的名称',
-	'LBL_VISIBILITY' => '可用在视图',
+	'LBL_VISIBILITY' => '在视图中可用',
 	'PLL_LISTVIEW' => '列表',
 	'PLL_DETAILVIEW' => '记录',
 	'LBL_DEFAULT_TPL' => '默认情况下选中',
@@ -90,9 +91,9 @@ $languageStrings = [
 	'LBL_EXAMPLE_EXPRESSION' => '表达式',
 	'LBL_EXPRESSION' => '表达式',
 	'LBL_ANNUAL_REVENUE' => '年度营收',
-	'LBL_EXPRESSION_EXAMPLE2' => "如果 邮寄国家为'印度'，联系人格式(名字，姓氏)，否则联系人格式为(姓氏，名字)",
+	'LBL_EXPRESSION_EXAMPLE2' => "如果邮寄国家为'印度'，联系人格式为(名字，姓氏)，否则为(姓氏，名字)",
 	'LBL_EXAMPLE_FIELD_NAME' => '字段',
-	'LBL_NOTIFY_OWNER' => '通知主人',
+	'LBL_NOTIFY_OWNER' => '通知发送者',
 	'LBL_WATERMARK_DETAILS' => '编辑水印',
 	'LBL_WATERMARK_TYPE' => '水印类型',
 	'LBL_WATERMARK_TEXT' => '水印内容',
@@ -105,21 +106,21 @@ $languageStrings = [
 	'LBL_WATERMARK_SIZE' => '字号',
 	'LBL_WATERMARK_ANGLE' => '角度(以度为单位)',
 	'LBL_IMPORT_TEMPLATE' => '导入模板',
-	'LBL_UPLOAD_ERROR' => '导入PDF模板的XML文件失败！!',
+	'LBL_UPLOAD_ERROR' => '导入PDF模板的XML文件失败！',
 	'LBL_UPLOAD_OK' => '模板文件导入成功.',
 	'LBL_IMPORT_VIEW' => 'PDF模板导入',
 	'LBL_TEMPLATE_XML' => 'XML文件',
 	'LBL_UPLOAD_TEMPLATE' => '导入',
-	'LBL_GO_TO_TEMPLATE' => '单击进入导入模板.',
+	'LBL_GO_TO_TEMPLATE' => '单击转到已导入模板。',
 	'LBL_RETURN' => '返回',
-	'LBL_PERMISSIONS_DETAILS' => '许可权限',
+	'LBL_PERMISSIONS_DETAILS' => '权限',
 	'LBL_INSERT' => '插入',
 	'PAGENO' => '页数',
 	'PAGENUM' => '页码',
 	'LBL_HEADER_HEIGHT' => '头部空白',
-	'LBL_FOOTER_HEIGHT' => '页脚空白',
+	'LBL_FOOTER_HEIGHT' => '底部空白',
 	'LBL_HEADER_IN_MILIMETERS' => '头部空白（从顶部开始，mm）',
-	'LBL_FOOTER_IN_MILIMETERS' => '页脚空白（从底部开始，mm）',
+	'LBL_FOOTER_IN_MILIMETERS' => '底部空白（从底部开始，mm）',
 	'LBL_GENERATE_ONE_PDF' => '为多个记录生成PDF',
 	'LBL_GENERATE_ONE_PDF_INFO' => '如果PDF包含一个特殊的功能，生成多个记录在一个表格中时，选中此框将导致生成一个 PDF 文件。',
 	// page format names
@@ -168,21 +169,21 @@ $languageStrings = [
 	'SRA2' => 'SRA2',
 	'SRA3' => 'SRA3',
 	'SRA4' => 'SRA4',
-	'LETTER' => '信',
-	'LEGAL' => '法律',
-	'LEDGER' => '分类帐',
-	'TABLOID' => '摘要',
-	'EXECUTIVE' => '执行经理',
-	'FOLIO' => '对开',
+	'LETTER' => '信纸',
+	'LEGAL' => '法律专用纸',
+	'LEDGER' => 'Ledger',
+	'TABLOID' => 'Tabloid',
+	'EXECUTIVE' => 'Executive',
+	'FOLIO' => '对开纸',
 	'B' => 'B',
 	'A' => 'A',
-	'DEMY' => '纸张尺寸',
-	'ROYAL' => '皇家'
+	'DEMY' => '四开纸',
+	'ROYAL' => 'Rotyal'
 ];
 $jsLanguageStrings = [
-	'JS_PDF_SAVED_SUCCESSFULLY' => 'PDF模板保存.',
+	'JS_PDF_SAVED_SUCCESSFULLY' => 'PDF模板已保存。',
 	'JS_NOTIFY_COPY_TEXT' => '已复制到剪贴板',
 	'JS_NOTIFY_COPY_TITLE' => '文本',
-	'JS_PDF_TEMPLATE_EXPORTED' => 'PDF模板文件导出成功.',
+	'JS_PDF_TEMPLATE_EXPORTED' => 'PDF模板文件导出成功。',
 	'JS_RECALCULATING' => '重新计算权限...',
 ];
