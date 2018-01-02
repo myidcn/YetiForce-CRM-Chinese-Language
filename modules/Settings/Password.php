@@ -1,39 +1,25 @@
 <?php
-/* ********************************************************************************
- *  Language     : 简体中文
- *  Version      : 3.4.87
- *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
-  ********************************************************************************  
- * 此语言包版权如下所示：
- * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
- * 使用此文件表示您已默认遵守相关许可规定。
- * 您可以在遵守此许可证 "AS IS" 的基础上对软件进行分发。
- * 此语言包遵循 知识共享署名-非商业性使用-相同方式共享 2.5 中国大陆许可协议(Creative Commons) 2.5，
- * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
- * idercn无任何形式的担保，明示或暗示的保证。
- *+***********************************************************************************/
-/* +***********************************************************************************************************************************
- * The contents of this file are subject to the YetiForce Public License Version 1.1 (the "License"); you may not use this file except
- * in compliance with the License.
- * Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
- * See the License for the specific language governing rights and limitations under the License.
- * The Original Code is YetiForce.
- * The Initial Developer of the Original Code is YetiForce. Portions created by YetiForce are Copyright (C) www.yetiforce.com. 
- * All Rights Reserved.
- * Contributor(s): 
- * *********************************************************************************************************************************** */
+/**
+ * Password english translation
+ * @package YetiForce.Language
+ * @copyright YetiForce Sp. z o.o.
+ * @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com)
+ */
 $languageStrings = [
 	'Password' => '密码设置',
-	'LBL_PASSWORD_DESCRIPTION' => '为用户的软件设置复杂的密码',
-	'LBL_Password_Header' => '参数确定密码的复杂性',
-	'Minimum password length' => '最小密码长度',
-	'Maximum password length' => '最大密码长度',
-	'Uppercase letters from A to Z' => '从 A 到 Z 的大写字母',
-	'Lowercase letters a to z' => '小写字母 z',
+	'LBL_PASSWORD_DESCRIPTION' => '设置用户密码的复杂程度',
+	'LBL_Password_Header' => '设置密码复杂度的参数',
+	'Minimum password length' => '密码最小长度',
+	'Maximum password length' => '密码最大长度',
+	'Uppercase letters from A to Z' => '密码应包含大写字母A-Z',
+	'Lowercase letters a to z' => '密码应包含小写字母a-z',
 	'Password should contain numbers' => '密码应该包含数字',
 	'Password should contain special characters' => '密码应包含特殊字符',
 	'LBL_ERROR' => '保存文件时出错',
-	'LBL_SAVE_OK' => '数据被保存',
+	'LBL_SAVE_OK' => '数据已保存',
 	'characters' => '字符',
+'LBL_PASSWORD_CHANGE_TIME' => '强制更改密码每',
+	'LBL_PASSWORD_CHANGE_TIME_DESC' => '0-不限, 365-年, 30-月。在此时间段之后, 每次用户登录时, 系统都会显示一条消息，提醒更改密码。',
+	'LBL_TIME_TO_CHANGE_PASSWORD' => '更改密码的最长时间 (天)',
+	'LBL_TIME_TO_CHANGE_PASSWORD_DESC' => '在此时间之后, 帐户将被阻止, 用户将无法登录到系统。',
 ];
