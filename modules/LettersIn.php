@@ -1,65 +1,53 @@
 <?php
-/* ********************************************************************************
- *  Language     : 简体中文
- *  Version      : 3.4.87
- *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
-  ********************************************************************************  
- * 此语言包版权如下所示：
- * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
- * 使用此文件表示您已默认遵守相关许可规定。
- * 您可以在遵守此许可证 "AS IS" 的基础上对软件进行分发。
- * 此语言包遵循 知识共享署名-非商业性使用-相同方式共享 2.5 中国大陆许可协议(Creative Commons) 2.5，
- * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
- * idercn无任何形式的担保，明示或暗示的保证。
- *+***********************************************************************************/
-/* +***********************************************************************************************************************************
- * The contents of this file are subject to the YetiForce Public License Version 1.1 (the "License"); you may not use this file except
- * in compliance with the License.
- * Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
- * See the License for the specific language governing rights and limitations under the License.
- * The Original Code is YetiForce.
- * The Initial Developer of the Original Code is YetiForce. Portions created by YetiForce are Copyright (C) www.yetiforce.com.
- * All Rights Reserved.
- * *********************************************************************************************************************************** */
+/**
+ * LettersIn 简体中文语言包
+ * @package www.idercn.com
+ * @版权所有 www.idercn.com
+ * @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com)
+ * @作者 www.idercn.com <idmaster@163.com>
+ */
 $languageStrings = [
 	// Basic Strings
-	'LettersIn' => '来信',
-	'SINGLE_LettersIn' => '来信',
-	'LBL_ADD_RECORD' => '添加来信',
-	'LBL_RECORDS_LIST' => '来信',
+	'LettersIn' => '传入信件',
+	'SINGLE_LettersIn' => '传入信件',
 	// Blocks
-	'LBL_MAIN_INFORMATION' => '邮件内容',
+	'LBL_MAIN_INFORMATION' => '信件信息',
 	//Field Labels
 	'Number' => '编号',
 	'Title' => '标题',
 	'Date of adoption' => '接收日期',
 	'Type of shipping' => '运输方式',
 	'Type of document' => '文档类型',
-	'Person receiving' => '接收人',
-	'Deadline for reply' => '答复的最后日期',
-	'Document no' => '文档编号.',
-	'No internal' => '内部编号.',
-	'Parent letters' => '与相关的邮件',
+	'Person receiving' => '收件人',
+	'Deadline for reply' => '最后答复日期',
+	'Document no' => '文档编号',
+	'No internal' => '内部编号',
+	'Parent letters' => '相关信件',
 	'Overall dimensions' => '尺寸',
-	'Notes' => '备注',
 	'Related' => '客户/销售机会',
 	'Contact' => '联系人',
+	'FL_CUSTOM_SENDER' => '自定义发件人',
+	'FL_TYPE' => '类型',
+	'FL_CASH_AMOUNT_ON_DELIVERY' => '交货付款金额',
+	'FL_DATE_OF_RECEIPT' => '收件日期',
+	'FL_OUTGOING_CORRESPONDENCE' => '传出信件',
+	'FL_INTERNAL_NOTES' => '内部便笺',
+	'FL_PUBLIC_NOTES' => '公共便笺',
 	// picklist values
-	'PLL_LOCAL_PICKUP' => '收件人',
+	'PLL_LOCAL_PICKUP' => '本人接收',
 	'PLL_POST_OFFICE_PL' => '波兰邮政总局',
 	'PLL_POST_OFFICE' => '邮局',
-	'PLL_COURIER' => 'Courier',
+	'PLL_COURIER' => '快递',
 	'PLL_COURIER_POCZTEX' => 'Pocztex快递',
 	'PLL_COURIER_7' => 'demka快递',
 	'PLL_COURIER_DPD' => 'DPD快递',
 	'PLL_COURIER_DHL' => 'DHL快递',
-	'PLL_COURIER_UPS' => 'Courier UPS',
+	'PLL_COURIER_UPS' => 'UPS快递',
 	'PLL_COURIER_GLS' => 'GLS快递',
 	'PLL_TELEX' => '电报',
 	'PLL_EMAIL' => '电子邮件',
 	'PLL_POCZTEX' => 'Pocztex波兰快递',
-	'PLL_TNT' => 'TNT',
+	'PLL_TNT' => 'TNT快递',
 	'PLL_DEMAND_PAYMENT' => '付款要求',
 	'PLL_BANK_STATEMENTS' => '银行对帐单',
 	'PLL_ORDER' => '排序',
@@ -73,10 +61,21 @@ $languageStrings = [
 	'PLL_OFFER' => '报价单',
 	'PLL_PERSONAL_LETTER' => '私人信件',
 	'PLL_PROFORMA' => '形式发票',
-	'PLL_CORRECTION' => '更正发票',
-	'PLL_INVOICE' => '发票',
-	'PLL_NEW' => '新建',
-	'PLL_SETTLED' => '已解决',
+	'PLL_CORRECTION' => '正式发票',
+	'PLL_INVOICE' => '付款通知单',
+	'PLL_IN_DEPARTMENT' => '在部门',
+	'PLL_REDIRECTED_TO_ANOTHER_DEPARTMENT' => '转发到另一个部门',
+	'PLL_REDIRECTED_TO_ANOTHER_ADDRESSEE' => '转发给另一个收件人',
+	'PLL_DESTOYED_UPON_ADDRESSEES_REQUEST' => '根据收件人的要求被摧毁',
+	'PLL_DESTROYED_IN_ACCORDANCE_WITH_INTERNAL_PROCEDURES' => '按照内部程序销毁',
+	'PLL_RETURN_TO_SENDER' => '回复发件人',
 	'PLL_A' => 'A',
 	'PLL_B' => 'B',
+	'PLL_REGULAR_LETTER' => '普通信件',
+	'PLL_REGISTERED_LETTER' => '挂号信',
+	'PLL_REGULAR_PARCEL' => '普通包裹',
+	'PLL_LARGESIZE_PARCEL' => '大件包裹',
+	'PLL_DOCUMENT' => '文档',
+	'PLL_RETURN' => '返回',
+	'PLL_POSTAL_ADVICE' => '邮政建议',
 ];

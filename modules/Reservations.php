@@ -1,52 +1,38 @@
 <?php
-/* ********************************************************************************
- *  Language     : 简体中文
- *  Version      : 3.4.87
- *  Author       : idercn.com | http://www.idercn.com
- *  Update Date  : 2016-10-17
-  ********************************************************************************  
- * 此语言包版权如下所示：
- * 此文件内容受 vtigerCRM 的公共许可证1.0版保护，
- * 使用此文件表示您已默认遵守相关许可规定。
- * 您可以在遵守此许可证 "AS IS" 的基础上对软件进行分发。
- * 此语言包遵循 知识共享署名-非商业性使用-相同方式共享 2.5 中国大陆许可协议(Creative Commons) 2.5，
- * 大家可以免费下载使用，但请注明来源，并署名 · 非商业性使用 · 相同方式共享。
- * idercn无任何形式的担保，明示或暗示的保证。
- *+***********************************************************************************/
-/* +***********************************************************************************************************************************
- * The contents of this file are subject to the YetiForce Public License Version 1.1 (the "License"); you may not use this file except
- * in compliance with the License.
- * Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
- * See the License for the specific language governing rights and limitations under the License.
- * The Original Code is YetiForce.
- * The Initial Developer of the Original Code is YetiForce. Portions created by YetiForce are Copyright (C) www.yetiforce.com. 
- * All Rights Reserved.
- * *********************************************************************************************************************************** */
+/**
+ * Reservations 简体中文语言包
+ * @package www.idercn.com
+ * @版权所有 www.idercn.com
+ * @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com)
+ * @作者 www.idercn.com <idmaster@163.com>
+ */
 $languageStrings = [
-	'SINGLE_Reservations' => '预约',
-	'Reservations' => '预约集合',
-	'LBL_MAIN_INFORMATION' => '预约详情',
+	'SINGLE_Reservations' => '预订',
+	'Reservations' => '预订',
+	'LBL_MAIN_INFORMATION' => '预订详情',
 	'LBL_BLOCK' => '关联',
 	'LBL_TOTAL_TIME' => '总时间',
 	'LBL_STATUS' => '状态',
-	'Assigned To' => '分配对象',
+	'Assigned To' => '负责人',
 	'LBL_TITLE' => '标题',
 	'LBL_START_DATE' => '开始日期',
 	'LBL_END_DATE' => '结束日期',
 	'LBL_TIME_START' => '开始时间',
 	'LBL_END_TIME' => '结束时间',
 	'LBL_NUM' => '编号',
-	'LBL_CALENDAR_VIEW' => '日程',
-	'LBL_RESERVATIONS_TYPE' => '预约类型',
+	'LBL_CALENDAR_VIEW' => '日历视图',
+	'LBL_RESERVATIONS_TYPE' => '预订类型',
 	'LBL_STATUS' => '状态',
 	'PLL_ACCEPTED' => '等待审批',
 	'PLL_TO_APPROVAL' => '已接受',
 	'LBL_RELATEDA' => '公司',
-	'LBL_RELATEDB' => '处理',
+	'LBL_RELATEDB' => '流程',
 	'LBL_TYPE' => '类型',
 	'LBL_MEETING_ROOMS' => '会议室',
 	'LBL_EQUIPMENT' => '设备',
-	'LBL_CARS' => '汽车',
+	'LBL_CARS' => '车辆',
+	'PLL_DRAFT' => '草稿',
+	'PLL_CANCELLED' => '已取消',
 ];
 $jsLanguageStrings = [
 	'MSG_ERROR_NUMBER' => '只允许数字: [0-9]',
@@ -54,4 +40,14 @@ $jsLanguageStrings = [
 	'JS_HOURS_SHOULD_BE_SMALLER_THAN' => '小时数应该小于24小时',
 	'JS_START_DATE' => '开始日期',
 	'JS_END_DATE' => '结束日期',
+	'JS_COMPANY' => '公司',
+ 	'JS_TOTAL_TIME' => '总时间',
+ 	'PLL_ACCEPTED' => '等待审批',
+ 	'PLL_TO_APPROVAL' => '已批准',
+ 	'PLL_DRAFT' => '草稿',
+ 	'PLL_CANCELLED' => '已取消',
+ 	'JS_ASSIGNED_TO' => '负责人',
+ 	'JS_TYPE' => '类型',
+ 	'JS_YES' => '是',
+ 	'JS_NO' => '否',
 ];

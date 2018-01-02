@@ -1,14 +1,14 @@
 <?php
 /**
- * FInvoice 简体中文语言包
+ * FInvoiceCost 简体中文语言包
  * @package www.idercn.com
  * @版权所有 www.idercn.com
  * @license YetiForce Public License 3.0 (licenses/LicenseEN.txt or yetiforce.com)
  * @作者 www.idercn.com <idmaster@163.com>
  */
 $languageStrings = [
-	'FInvoice' => '付款通知单',
-	'SINGLE_FInvoice' => '付款通知单',
+	'FInvoiceCost' => '成本付款通知单',
+	'SINGLE_FInvoiceCost' => '成本付款通知单',
 	//BLOCKS
 	'LBL_CUSTOM_INFORMATION' => '系统信息',
 	'LBL_INVOICE_ADDRESS' => '付款通知单地址',
@@ -47,6 +47,4 @@ $languageStrings = [
 	'PLL_FOR_APPROVAL' => '等待审批',
 	'PLL_CANCELLED' => '已取消',
 	'PLL_ACCEPTED' => '已接受',
-	//OTHERS
-	'LBL_YEAR' => '年',
 ];
