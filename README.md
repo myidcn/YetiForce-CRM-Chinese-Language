@@ -1,6 +1,6 @@
 # YetiForce-CRM-Chinese-language
 
-2018-1-8，更新了，发货单(对外)和出库单（对内）的翻译 2018-1-8。
+2018-1-8，更新了，发货单(对外)和出库单（对内）的翻译 -2018-1-8。
 
 yetiforce 4.3.0中文语言包请到此处下载。
 For Yetiforce 4.3.0 Chinese language Pack，can  download。
